@@ -16,10 +16,26 @@ Notebooks for data science practice - inspired by peter norvig's pytudes project
 | statsmodels              |           |      |
 
 
-data types: https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb 
-Bonus: how to share data with a statistician by Jeff Leek: 
+
+### Useful Guides:
+
+[Data Types](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
+[how to share data with a statistician by Jeff Leek:] https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb
+Reproducability in Data Science https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
 
 
+----------------------------------------------------------------------------------------------------------------
+
+
+## Machine Learning
+
+| Algorithm           | Notebooks | Description |
+|---------------------|-----------|-------------|
+| Linear Regression   |           |             |
+| Logistic Regression |           |             |
+| SVMs                |           |             |
+| XGboost             |           |             |
+| Clustering          |           |             |
 
 ## Useful Data Algorithms
 
@@ -34,41 +50,28 @@ Bonus: how to share data with a statistician by Jeff Leek:
 
 ###  Matrix Algorithms 
 
-Principal Component Analysis (PCA)
-
-Low-rank matrix approximations: 
-
-- Probabilistic Latent Semantic Indexing (PLSA) 
-- Latent Dirchlet Allocation (LDA)
-- Singular value decomposition
-- Logistic Matrix Factorization
-
-Restricted Boltzmann Machines 
-Collaborative Filtering 
-Compressive sensing
-Linear and convex programming
+| Latent Semantic Indexing                      | [Code] <https://gist.github.com/asjad99/e87a695df10b0859ee943b8e661f0fc3> |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------|
+| Principal Component Analysis (PCA)            |                                                                                           |
+| Probabilistic Latent Semantic Indexing (PLSA) |                                                                                           |
+| Latent Dirchlet Allocation (LDA)              |                                                                                           |
+| Logistic Matrix Factorization                 |                                                                                           |
+| Restricted Boltzmann Machines                 |                                                                                           |
+| Collaborative Filtering                       |                                                                                           |
+| Compressive sensing                           |                                                                                           |
+| Linear and convex programming                 |                                                                                           |
 
 ### Graph algorithms
 
-Classic Graph Problems
-Spectral Graph Theory
-Knowledge Graphs: https://blog.fastforwardlabs.com/2020/01/29/a-symbiotic-relationship-knowledge-graphs-machine-learning.html
-Graph Neural Networks (GNNs)
 
+
+
+https://blog.fastforwardlabs.com/2020/01/29/a-symbiotic-relationship-knowledge-graphs-machine-learning.html
 
 ### Classic AI algorithms
 
 
 
-## Machine Learning
-
-| Algorithm           | Notebooks | Description |
-|---------------------|-----------|-------------|
-| Linear Regression   |           |             |
-| Logistic Regression |           |             |
-| SVMs                |           |             |
-| XGboost             |           |             |
-| Clustering          |           |             |
 
 
 
