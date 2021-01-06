@@ -32,9 +32,10 @@ Notebooks for data science practice - inspired by peter norvig's pytudes project
 
 ### Useful Guides:
 
-[Data Types](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
-[how to share data with a statistician by Jeff Leek:] https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb
-Reproducability in Data Science https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
+- [Data Types](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
+- [how to share data with a statistician by Jeff Leek:] 
+- https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb
+- Reproducability in Data Science https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
 
 
 ----------------------------------------------------------------------------------------------------------------
