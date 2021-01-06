@@ -1,7 +1,11 @@
 
 # Index of Jupyter (IPython) Notebooks
 
-Notebooks for data science practice - inspired by peter norvig's pytudes project <https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks> and Project's by folks like: [Donne_Martin} <https://github.com/donnemartin/data-science-ipython-notebooks>, [Dfriends] <https://dfrieds.com/>, [Chris_albon]<https://chrisalbon.com/> 
+Instead of providing a sophisticated definition of Data Science, We run with this definition for now: 
+
+> Data science = statistics + data collection + data preprocessing + machine learning + visualization + business insights + scientific hypotheses + big data + (etc)
+
+Notebooks for data science practice - inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks) and Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
 
 
 ### Topics: 
@@ -32,7 +36,7 @@ Notebooks for data science practice - inspired by peter norvig's pytudes project
 
 ### Useful Guides:
 
-- [Data Types](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
+- [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
 - [how to share data with a statistician by Jeff Leek:] 
 - https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb
 - Reproducability in Data Science https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
