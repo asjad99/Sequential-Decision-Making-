@@ -1,21 +1,22 @@
 
-## Data Wrangling, Pre-Processing and Exploration
+# Index of Jupyter (IPython) Notebooks
+
+Notebooks for data science practice - inspired by peter norvig's pytudes project <https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks> 
+
+# Data Wrangling 
+
+| Notebook                 | Notebooks | Blog |
+|--------------------------|-----------|------|
+| data types Tutorial      |           |      |
+| Data Wrangling with Unix |           | post |
+| Numpy Tutorial           | DN        | post |
+| Pandas Tutorial          | DN        |      |
+| Seaborn                  |           |      |
+| Matplotlib               |           |      |
+| statsmodels              |           |      |
 
 
-
-### Tutorials: 
-
-| Notebook                 | Notebooks | Description                                                                                                                                                                                                                                                        |
-|--------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| data types Tutorial      |           |                                                                                                                                                                                                                                                                    |
-| Data Wrangling with Unix | Blog      | Downloading data from the Internet and accessing APIs using  curl  Transforming data with filters such as cut, paste, grep, and  sed  Processing other data formats efficiently      JSON with jq      CSV with csvkit      HTML with pup      XML with xmlstarlet |
-| Numpy                    | DN        | Create Arrays with efficient operations - Slice, Dice                                                                                                                                                                                                              |
-| Pandas                   | DN        |                                                                                                                                                                                                                                                                    |
-| Seaborn                  |           |                                                                                                                                                                                                                                                                    |
-| Matplotlib               | DN        |                                                                                                                                                                                                                                                                    |
-|                          |           |                                                                                                                                                                                                                                                                    |
-
-
+data types: https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb 
 Bonus: how to share data with a statistician by Jeff Leek: 
 
 
