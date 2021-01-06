@@ -1,12 +1,22 @@
-------------------------------
+
 ## Data Wrangling, Pre-Processing and Exploration
-------------------------------
 
 
 
+### Tutorials: 
+
+| Notebook                 | Notebooks | Description                                                                                                                                                                                                                                                        |
+|--------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| data types Tutorial      |           |                                                                                                                                                                                                                                                                    |
+| Data Wrangling with Unix | Blog      | Downloading data from the Internet and accessing APIs using  curl  Transforming data with filters such as cut, paste, grep, and  sed  Processing other data formats efficiently      JSON with jq      CSV with csvkit      HTML with pup      XML with xmlstarlet |
+| Numpy                    | DN        | Create Arrays with efficient operations - Slice, Dice                                                                                                                                                                                                              |
+| Pandas                   | DN        |                                                                                                                                                                                                                                                                    |
+| Seaborn                  |           |                                                                                                                                                                                                                                                                    |
+| Matplotlib               | DN        |                                                                                                                                                                                                                                                                    |
+|                          |           |                                                                                                                                                                                                                                                                    |
 
 
-
+Bonus: how to share data with a statistician by Jeff Leek: 
 
 
 
