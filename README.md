@@ -1,9 +1,22 @@
 
 # Index of Jupyter (IPython) Notebooks
 
-Notebooks for data science practice - inspired by peter norvig's pytudes project <https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks> 
+Notebooks for data science practice - inspired by peter norvig's pytudes project <https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks> and Project's by folks like: [Donne_Martin} <https://github.com/donnemartin/data-science-ipython-notebooks>, [Dfriends] <https://dfrieds.com/>, [Chris_albon]<https://chrisalbon.com/> 
 
-# Data Wrangling 
+
+### Topics: 
+
+- Data Wrangling  
+- Basic Statistics
+- Machine Learning
+- NLP with Deep Learning
+- Data Engineering with Spark 
+
+
+
+## Data Wrangling 
+
+
 
 | Notebook                 | Notebooks | Blog |
 |--------------------------|-----------|------|
