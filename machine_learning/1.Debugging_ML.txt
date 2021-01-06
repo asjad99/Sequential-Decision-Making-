@@ -1,0 +1,10 @@
+
+http://www.datasciencecourse.org/notes/debugging/
+
+
+
+------------------------------------------------
+Heuristics for debugging ML models - yearning_notes
+------------------------------------------------
+
+

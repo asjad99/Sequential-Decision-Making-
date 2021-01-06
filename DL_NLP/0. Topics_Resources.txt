@@ -1,0 +1,21 @@
+-----------------------------
+Topics: 
+-----------------------------
+
+Transfer Learning for NLP: https://textflix.fastforwardlabs.com/
+Question Answering: https://qa.fastforwardlabs.com/pytorch/hugging%20face/wikipedia/bert/transformers/2020/05/19/Getting_Started_with_QA.html
+
+-----------------------------
+NLP resources: 
+-----------------------------
+
+Andrew NG + Fast.ai course 
+Replicate some cool 4-5 academic papers 
+
+https://lena-voita.github.io/nlp_course.html?utm_campaign=NLP%20News&utm_medium=email&utm_source=Revue%20newsletter
+
+http://newsletter.ruder.io/issues/ml-and-nlp-starter-toolkit-low-resource-nlp-toolkit-can-a-lm-understand-natural-language-the-next-generation-of-nlp-benchmarks-254211
+
+
+
+

@@ -1,0 +1,30 @@
+
+--------------
+List of Topics: 
+--------------
+
+
+Linear Algebra
+Sets
+Graph Theory
+Probability
+
+
+
+
+
+
+--------------
+Resources
+--------------
+
+
+- A visual introduction to probability and statistics https://seeing-theory.brown.edu/?vt=4#secondPage
+
+- Math for programmers : 
+- CMU math for ML: https://www.youtube.com/watch?v=z90QqTO5wBc&list=PL7y-1rk2cCsAqRtWoZ95z-GMcecVG5mzA&index=2
+- CS168
+- Foundations of data science  
+- statistics coursera / stanford mooc / mit edx 
+- CS103/CS109
+- cheatsheet: The Probability and Statistics Cookbook

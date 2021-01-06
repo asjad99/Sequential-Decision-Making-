@@ -1,0 +1,57 @@
+-----------------------
+Python Basics
+--------------------
+Strings, numbers, and variables; statements, operators, and expressions;
+Lists, tuples, and dictionaries; Conditions, loops;
+Procedures, objects, modules, and libraries;
+Troubleshooting and debugging; Research & documentation;
+Problem solving; Algorithms and data structures
+
+
+Intermediate python by Jessica Mackiller 
+https://learning.oreilly.com/videos/intermediate-python-programming/9781491954935/9781491954935-video256161?autoplay=false
+
+------------------------------
+Data Science Libraries: 
+------------------------------
+
+Numpy 
+Pandas 
+MatplotLib
+
+
+------------------------------
+data formats
+------------------------------
+
+CSV (comma separated value) files
+JSON (Javascript object notation) files and string
+HTML/XML (hypertext markup language / extensible markup language) files and string
+
+------------------------------
+Data Wrangling, Pre-Processing and Exploration
+------------------------------
+
+Unix command-line data Wrangling: 
+
+Downloading data from the Internet and accessing APIs using curl
+Transforming data with filters such as cut, paste, grep, and sed
+Processing other data formats efficiently
+    JSON with jq
+    CSV with csvkit
+    HTML with pup
+    XML with xmlstarlet
+
+
+https://missing.csail.mit.edu/2020/data-wrangling/  
+
+https://www.datascienceatthecommandline.com/2e/preface.html
+
+
+
+
+---------------------------------------------
+
+
+
+
