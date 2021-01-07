@@ -1,7 +1,7 @@
 
 # Index of Jupyter (IPython) Notebooks
 
-Instead of providing a sophisticated definition of Data Science, We run with this definition for now: 
+Instead of providing a sophisticated definition of Data Science, We run with this definition for now(by J. Kolter at CMU): 
 
 > Data science = statistics + data collection + data preprocessing + machine learning + visualization + business insights + scientific hypotheses + big data + (etc)
 
@@ -53,7 +53,7 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 
 ## Machine Learning
 
-According to at CMU fo
+According to J. Kolter at CMU:  
 
 > for many data science problems, simple machine learning algorithms suffice to attain sufficiently good performance (by whatever metric you want to define performance, but I simply mean that they effectively solve the problem). The numbers here are all just examples (specifically the solvable/unsolvable ratio), but the point it gets at is important. There are many data science problems one would like to be able to solve, but in a large number of these cases, there is simply no way to solve the problem given the available data. For the set of problems that are solvable with some kind of machine learning, the vast majority will be solvable at least to a level of sufficient performance, using relatively simple models. The 5% of remaining problems is an important one, because they often consist of the most “interesting” problems from a research standpoint (think problems like speech recognition, natural language understanding, computer vision), but they are often not indicative of the types of problems one encounters in “most” data science applications.
 
