@@ -7,7 +7,7 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 
 Process of data science is something as follows: 
 
-[logo]: https://github.com/asjad99/datascience-GYM/blob/master/data_science_process.png "data_science_process"
+[logo]:data_science_process.png "data_science_process"
 
 
 
