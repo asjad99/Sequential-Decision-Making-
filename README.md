@@ -41,10 +41,10 @@ Descriptive Analytics is aimed at Describing the dataset at hand, Discovering in
 ### Useful Guides:
 
 - Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
-- [Reproducability in Data Science] https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
+- [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
 - The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
 - [Creating a data driven organization]: (https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html)
-- Managing teams: https://www.oreilly.com/library/view/managing-data-science/9781838826321/
+- [Managing teams]: (https://www.oreilly.com/library/view/managing-data-science/9781838826321/)
 
 #### Interesting case studies: 
 
