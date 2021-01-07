@@ -7,11 +7,9 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 
 Process of data science is something as follows: 
 
-
 ![alt text](data_science_process.png "Logo Title Text 1")
 
-
-Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that they can making use of the user data and event data to make data-informed decisions which replaces thd gut instinct, loudest voice, and best argument methods. THe insights agther throught the process can be used ro insights that help improve existing processes and drive out operations cost. 
+Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that they can making use of the user data and event data to make data-informed decisions which replaces thd gut instinct, loudest voice, and best argument methods. THe insights agther throught the process can be used ro insights that help improve existing processes and drive out operations cost. It also bit of an art, that requires learning 'how to be smart with data' and create value from data. 
 
 
 ### Topics: 
@@ -27,6 +25,8 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 
 
 ## Descriptive Analytics 
+
+Descriptive Analytics is aimed at Describing the dataset at hand, Discovering insigths and Acting on those insights. It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. It answers real business questions 
 
 
 | Notebook                 | Notebooks | Blog |
@@ -44,6 +44,8 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 - Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - [Reproducability in Data Science] https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
 - The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
+- Creating a data driven organization: https://learning.oreilly.com/library/view/data-driven/9781491925454/
+- Managing teams: https://www.oreilly.com/library/view/managing-data-science/9781838826321/
 
 #### Interesting case studies: 
 
@@ -75,6 +77,36 @@ According to J. Kolter at CMU:
 | XGboost             |           |             |
 | Clustering          |           |             |
 
+
+
+#### Cool ML Applications: 
+
+- The Case for Learned Index Structures 
+- [Machine Learning in Compilers: Past, Present and Future] (https://research.fb.com/wp-content/uploads/2020/09/Machine-Learning-in-Compilers-Past-Present-and-Future.pdf)
+- [Using machine learning for code recommendation](https://ai.facebook.com/blog/aroma-ml-for-code-recommendation/)
+- [Learn to rank](https://medium.com/@nikhilbd/intuitive-explanation-of-learning-to-rank-and-ranknet-lambdarank-and-lambdamart-fe1e17fac418
+https://arxiv.org/pdf/1812.00073.pdf)
+
+#### Useful Guides: 
+
+- Understanding Generalizations in Machine Learning 
+- Debugging ML Systems 
+- Feature Engineering 
+- Challenges in Production: https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/
+
+
+## Deep Learning and NLP: 
+
+
+-- retrieving relevant code given a natural language query: 
+
+
+#### Cool Applications: 
+
+- Deep learning to translate between programming languages https://ai.facebook.com/blog/deep-learning-to-translate-between-programming-languages/
+
+
+----------------------------------------------------------------------------------------------------------------
 
 ## Predictive Analytics with Reinforcement Learning 
 
