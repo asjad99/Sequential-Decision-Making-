@@ -16,10 +16,10 @@ Data Science has been around for a while. Even big data has been around for a wh
 
 Notebooks for data science practice - inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks) and Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
 
-- Data Wrangling  
-- Basic Statistics
-- Machine Learning
-- NLP with Deep Learning
+- Descriptive Analytics (Data Wrangling and Basic Statistics)
+- Preditive Analytics with Machine Learning
+- Prescriptive Analytics 
+- Data Products (with NLP and Deep Learning)
 - Data Engineering with Spark 
 
 
@@ -44,7 +44,7 @@ Descriptive Analytics is aimed at Describing the dataset at hand, Discovering in
 - Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - [Reproducability in Data Science] https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
 - The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
-- Creating a data driven organization: https://learning.oreilly.com/library/view/data-driven/9781491925454/
+- [Creating a data driven organization]: (https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html)
 - Managing teams: https://www.oreilly.com/library/view/managing-data-science/9781838826321/
 
 #### Interesting case studies: 
@@ -78,7 +78,6 @@ According to J. Kolter at CMU:
 | Clustering          |           |             |
 
 
-
 #### Cool ML Applications: 
 
 - The Case for Learned Index Structures 
@@ -92,7 +91,11 @@ https://arxiv.org/pdf/1812.00073.pdf)
 - Understanding Generalizations in Machine Learning 
 - Debugging ML Systems 
 - Feature Engineering 
+- Challenges in Deploying Machine Learning: a Survey of Case Studies
 - Challenges in Production: https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/
+
+
+----------------------------------------------------------------------------------------------------------------
 
 
 ## Deep Learning and NLP: 
