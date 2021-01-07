@@ -1,6 +1,5 @@
 
-# Index of Jupyter (IPython) Notebooks
-
+## Introduction: 
 
 Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the data they collect(e.g user data and event data) to make data-informed decisions which replaces the old model of going with the gut instinct, loudest voice, and best argument methods. The insights gathered through this process can help improve existing processes and lower operations cost. Learning 'how to be smart with data' is also bit of an art, that requires curosity, creativity and attention to detail and so on. All of this requires experience and practice.  
 
@@ -43,13 +42,20 @@ Descriptive Analytics is aimed at Describing the dataset at hand, Discovering in
 - Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
 - The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
-- [Competing in a Data-Driven World: An executive Guide](https://asjadkhan.ghost.io/generating-business-value-with-ai-an-executive-guide/) 
 - [Creating a data driven organization](https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html)
 - [Managing Data Science Teams and Projects](https://www.oreilly.com/library/view/managing-data-science/9781838826321/)
 
 #### Interesting case studies: 
 
-Its good to see some data science projects. In each project, the author had a question they wanted to answer and used data to answer that question. They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
+Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
+that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
+
+- What problem are we trying to solve and why its intresting? 
+- Document your assumptions and make sure they have not introduced bias in your work.
+- Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
+original intent)
+
+The goal of your analysis is to tell an actionable story. Its good to see some data science projects and learn from them. In each project, the author had a question they wanted to answer and used data to answer that question. They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
 
 - https://pennmusa.github.io/MUSA_801.io/project_5/index.html
 - https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
