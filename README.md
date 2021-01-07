@@ -13,8 +13,6 @@ Process of data science is something as follows:
 
 ### Topics: 
 
-Notebooks for data science practice - inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks) and Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
-
 - Descriptive Analytics (Data Wrangling and Basic Statistics)
 - Preditive Analytics with Machine Learning
 - Prescriptive Analytics 
@@ -194,3 +192,5 @@ developed, how they are useful, and when they work best. e.g develop statistical
 
 
 “Standard Human Condition is miscognition, ignorance and Stupidity” - Charlie Munger 
+
+inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks) and Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
