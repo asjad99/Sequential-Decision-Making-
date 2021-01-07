@@ -11,6 +11,8 @@ Process of data science is something as follows:
 ![alt text](data_science_process.png "Logo Title Text 1")
 
 
+Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that they can making use of the user data and event data to make data-informed decisions which replaces thd gut instinct, loudest voice, and best argument methods. THe insights agther throught the process can be used ro insights that help improve existing processes and drive out operations cost. 
+
 
 ### Topics: 
 
@@ -39,11 +41,9 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 
 ### Useful Guides:
 
-- Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
-- The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician] 
-- https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb
-- Reproducability in Data Science https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
-
+- Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
+- [Reproducability in Data Science] https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
+- The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
 
 #### Interesting case studies: 
 
@@ -92,6 +92,8 @@ According to J. Kolter at CMU:
 
 ## Useful Data Algorithms for Building Data Products 
 
+A data product provides actionable information without exposing decision makers to the underlying
+data or analytics. Examples include: Movie Recommendations, Production Process Improvements, Targeted Advertising etc.
 
 ### Data Mining Algorithms 
 
