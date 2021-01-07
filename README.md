@@ -38,8 +38,6 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 | Matplotlib               |           |      |
 | statsmodels              |           |      |
 
-
-
 ### Useful Guides:
 
 - Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
@@ -47,6 +45,15 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 - https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb
 - Reproducability in Data Science https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
 
+
+#### Interesting case studies: 
+
+Its good to see some data science projects. In each project, the author had a question they wanted to answer and used data to answer that question. They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
+
+- https://pennmusa.github.io/MUSA_801.io/project_5/index.html
+- https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
+- https://masalmon.eu/2017/11/16/wheretoliveus/
+- http://varianceexplained.org/r/trump-tweets/
 
 ----------------------------------------------------------------------------------------------------------------
 
