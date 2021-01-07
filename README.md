@@ -24,15 +24,14 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 
 
 
-## Data Wrangling 
-
+## Descriptive Analytics 
 
 
 | Notebook                 | Notebooks | Blog |
 |--------------------------|-----------|------|
 | data types Tutorial      |           |      |
 | Data Wrangling with Unix |           | post |
-| Numpy Tutorial           | DN        | post |
+| Numpy Basics Tutorial    | DN        | post |
 | Pandas Tutorial          | DN        |      |
 | Seaborn                  |           |      |
 | Matplotlib               |           |      |
@@ -58,7 +57,7 @@ Its good to see some data science projects. In each project, the author had a qu
 ----------------------------------------------------------------------------------------------------------------
 
 
-## Machine Learning
+## Predictive Analytics with Machine Learning 
 
 According to J. Kolter at CMU:  
 
@@ -76,7 +75,16 @@ According to J. Kolter at CMU:
 | XGboost             |           |             |
 | Clustering          |           |             |
 
-## Useful Data Algorithms
+
+## Predictive Analytics with Reinforcement Learning 
+
+Basic Theory: 
+  - 3 pillers of reinforcement learning 
+  - Exploration vs Exploitation 
+  - RL in 
+
+
+## Useful Data Algorithms for Building Data Products 
 
 
 ### Data Mining Algorithms 
@@ -108,6 +116,7 @@ According to J. Kolter at CMU:
 https://blog.fastforwardlabs.com/2020/01/29/a-symbiotic-relationship-knowledge-graphs-machine-learning.html
 
 ### Classic AI algorithms
+
 
 
 
