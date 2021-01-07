@@ -5,10 +5,16 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 
 > Data science = statistics + data collection + data preprocessing + machine learning + visualization + business insights + scientific hypotheses + big data + (etc)
 
-Notebooks for data science practice - inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks) and Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
+Process of data science is something as follows: 
+
+[logo]: https://github.com/asjad99/datascience-GYM/blob/master/data_science_process.png "data_science_process"
+
+
 
 
 ### Topics: 
+
+Notebooks for data science practice - inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks) and Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
 
 - Data Wrangling  
 - Basic Statistics
@@ -46,6 +52,14 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 
 
 ## Machine Learning
+
+According to at CMU fo
+
+> for many data science problems, simple machine learning algorithms suffice to attain sufficiently good performance (by whatever metric you want to define performance, but I simply mean that they effectively solve the problem). The numbers here are all just examples (specifically the solvable/unsolvable ratio), but the point it gets at is important. There are many data science problems one would like to be able to solve, but in a large number of these cases, there is simply no way to solve the problem given the available data. For the set of problems that are solvable with some kind of machine learning, the vast majority will be solvable at least to a level of sufficient performance, using relatively simple models. The 5% of remaining problems is an important one, because they often consist of the most “interesting” problems from a research standpoint (think problems like speech recognition, natural language understanding, computer vision), but they are often not indicative of the types of problems one encounters in “most” data science applications.
+
+
+[logo]: https://github.com/asjad99/datascience-GYM/blob/master/ml_problems.png "Logo Title Text 2"
+
 
 | Algorithm           | Notebooks | Description |
 |---------------------|-----------|-------------|
