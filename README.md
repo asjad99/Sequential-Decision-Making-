@@ -9,6 +9,7 @@ Process of data science is something as follows:
 
 [logo]:data_science_process.png "data_science_process"
 
+![alt text](data_science_process.png "Logo Title Text 1")
 
 
 
