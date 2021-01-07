@@ -78,11 +78,17 @@ According to J. Kolter at CMU:
 
 ## Predictive Analytics with Reinforcement Learning 
 
-Basic Theory: 
+#### Basic Theory: 
   - 3 pillers of reinforcement learning 
   - Exploration vs Exploitation 
-  - RL in 
+  - RL in the Real World: Challenges and Opportunities 
+  - Counterfactual Policy Evaluation 
+  - Math of RL 
 
+#### Case Study: 
+  - Supporting Knowledge Instensive Processes in Clincial Settings 
+
+------------------------------------------------------------------------------------------------------------------------
 
 ## Useful Data Algorithms for Building Data Products 
 
