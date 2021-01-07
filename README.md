@@ -2,7 +2,7 @@
 # Index of Jupyter (IPython) Notebooks
 
 
-Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the data they collect(e.g user data and event data) to make data-informed decisions which replaces the old model of going with the gut instinct, loudest voice, and best argument methods. The insights gathered through this process can help improve existing processes and lower operations cost. Learning 'how to be smart with data' is also bit of an art, that requires experience and practice.  
+Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the data they collect(e.g user data and event data) to make data-informed decisions which replaces the old model of going with the gut instinct, loudest voice, and best argument methods. The insights gathered through this process can help improve existing processes and lower operations cost. Learning 'how to be smart with data' is also bit of an art, that requires experience and practice.  For more details see [Competing in a Data-Driven World: An executive Guide](https://asjadkhan.ghost.io/generating-business-value-with-ai-an-executive-guide/) 
 
 Instead of providing a sophisticated definition of Data Science, We run with this definition for now(by J. Kolter at CMU): 
 
@@ -41,10 +41,14 @@ Descriptive Analytics is aimed at Describing the dataset at hand, Discovering in
 ### Useful Guides:
 
 - Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
+
 - [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
+
 - The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
-- [Creating a data driven organization]: (https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html)
-- [Managing teams]: (https://www.oreilly.com/library/view/managing-data-science/9781838826321/)
+
+- [Creating a data driven organization](https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html)
+
+- [Managing Data Science Teams and Projects](https://www.oreilly.com/library/view/managing-data-science/9781838826321/)
 
 #### Interesting case studies: 
 
@@ -59,6 +63,8 @@ Its good to see some data science projects. In each project, the author had a qu
 
 
 ## Predictive Analytics with Machine Learning 
+
+
 
 According to J. Kolter at CMU:  
 
@@ -127,7 +133,7 @@ https://arxiv.org/pdf/1812.00073.pdf)
 ## Useful Data Algorithms for Building Data Products 
 
 A data product provides actionable information without exposing decision makers to the underlying
-data or analytics. Examples include: Movie Recommendations, Production Process Improvements, Targeted Advertising etc.
+data or analytics. Examples include: Movie Recommendations, Production Process Improvements, Targeted Advertising etc. For more details see [Rise of data Products](https://asjadkhan.ghost.io/ghost/#/site) 
 
 ### Data Mining Algorithms 
 
