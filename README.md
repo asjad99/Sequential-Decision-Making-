@@ -1,6 +1,9 @@
 
 # Index of Jupyter (IPython) Notebooks
 
+
+Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the data they collect(e.g user data and event data) to make data-informed decisions which replaces the old model of going with the gut instinct, loudest voice, and best argument methods. The insights gathered through this process can help improve existing processes and lower operations cost. Learning 'how to be smart with data' is also bit of an art, that requires experience and practice.  
+
 Instead of providing a sophisticated definition of Data Science, We run with this definition for now(by J. Kolter at CMU): 
 
 > Data science = statistics + data collection + data preprocessing + machine learning + visualization + business insights + scientific hypotheses + big data + (etc)
@@ -8,9 +11,6 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 Process of data science is something as follows: 
 
 ![alt text](data_science_process.png "Logo Title Text 1")
-
-Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that they can making use of the user data and event data to make data-informed decisions which replaces thd gut instinct, loudest voice, and best argument methods. THe insights agther throught the process can be used ro insights that help improve existing processes and drive out operations cost. It also bit of an art, that requires learning 'how to be smart with data' and create value from data. 
-
 
 ### Topics: 
 
@@ -23,10 +23,9 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 - Data Engineering with Spark 
 
 
-
 ## Descriptive Analytics 
 
-Descriptive Analytics is aimed at Describing the dataset at hand, Discovering insigths and Acting on those insights. It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. It answers real business questions 
+Descriptive Analytics is aimed at Describing the dataset at hand, Discovering insigths and Acting on those insights. It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. It answers real business questions and usually starts with acquiring the relevent data. We then prepare the acquired data for analysis. 
 
 
 | Notebook                 | Notebooks | Blog |
@@ -172,7 +171,15 @@ mathematics, particularly statistics and linear algebra. It is important to
 understand this material on an intuitive level: why these concepts were
 developed, how they are useful, and when they work best. e.g develop statistical reasoning is a core goal. 
 
-Linear Algebra
-Sets
-Graph Theory
-Probability
+- Linear Algebra
+- Sets
+- Graph Theory
+- Probability
+
+
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+“Standard Human Condition is miscognition, ignorance and Stupidity” - Charlie Munger 
