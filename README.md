@@ -42,8 +42,8 @@ Notebooks for data science practice - inspired by peter norvig's [pytudes projec
 
 ### Useful Guides:
 
-- [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
-- [how to share data with a statistician by Jeff Leek:] 
+- Data Formats should be easy for computers to parse, people to read and widely used by systems in production. Here is a guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb )
+- The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. Here is a guide by Jeff lean on [how to share data with a statistician] 
 - https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb
 - Reproducability in Data Science https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf
 
@@ -108,6 +108,10 @@ https://blog.fastforwardlabs.com/2020/01/29/a-symbiotic-relationship-knowledge-g
 
 
 ## Math Topics
+Data science rests on a foundation of
+mathematics, particularly statistics and linear algebra. It is important to
+understand this material on an intuitive level: why these concepts were
+developed, how they are useful, and when they work best. e.g develop statistical reasoning is a core goal. 
 
 Linear Algebra
 Sets
