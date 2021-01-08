@@ -228,10 +228,6 @@ This is similar to Operations Research techniques focused on selecting the best 
 |                     |           |             |
 
 
-
-
-
-
 ## Math Topics
 Data science rests on a foundation of
 mathematics, particularly statistics and linear algebra. It is important to
