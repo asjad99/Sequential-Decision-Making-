@@ -48,7 +48,7 @@ act. Evaluate the business results to improve the overall product.
 
 ## Topics: 
 
--  Data Engineering and Data Munging (Data Acquistion and pre-processing) 
+- Data Engineering and Data Munging (Data Acquistion and pre-processing) 
 - Descriptive Analytics (Data Wrangling and Basic Statistics to summarize data)
 - Preditive Analytics with Machine Learning
 - Prescriptive Analytics 
@@ -69,14 +69,14 @@ In practice we:
 
 #### Data Collection and Data Cleaning
 
-| Notebook                 | Code | Blog |
-|--------------------------|-----------|------|
-| Data Wrangling with Unix |           | post |
-| Numpy Basics Tutorial    | Notebook        | Notes |
-| Pandas Tutorial          | Notebook        |      |
-| Speeding up NumPY        |           | [Notes](https://asjadkhan.ghost.io/speeding-up-numpy/)          |
-| Web Data Collection      | Notebook (https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
-| Spark Tutorial           |           | [Post]()     |
+| Notebook                 | Description | Code | Blog |
+|--------------------------|-----------|------|-------|
+| Data Wrangling with Unix | Learn various command line utlities and how they can be used to clean and compute basic statistics          | post |         |
+| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | Notebook (https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
+| Numpy Basics Tutorial    | Learn the basics of the library that underpins scientific computing          |Notebook        | Notes |
+| Pandas Tutorial          |           |Notebook        |      |
+| Speeding up NumPY        | Learn how to get optimal performance out of NumPY | | [Notes](https://asjadkhan.ghost.io/speeding-up-numpy/)          |
+| Spark Tutorial           |           |     |      |
 
 
 #### Descriptive Statistics 
