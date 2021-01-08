@@ -133,45 +133,16 @@ https://arxiv.org/pdf/1812.00073.pdf)
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## Useful Data Algorithms for Building Data Products 
-
-A data product provides actionable information without exposing decision makers to the underlying
-data or analytics. Examples include: Movie Recommendations, Production Process Improvements, Targeted Advertising etc. For more details see [Rise of data Products](https://asjadkhan.ghost.io/ghost/#/site) 
-
-### Data Mining Algorithms 
-
-| Algorithm                | Notebooks | Description |   |   |
-|--------------------------|-----------|-------------|---|---|
-| Assoicative Rule Mining  |           |             |   |   |
-| Alpha Miner              |           |             |   |   |
-| Flexible Heuristic Miner |           |             |   |   |
-
-###  Matrix Algorithms 
-
-| Latent Semantic Indexing                      | [Code] <https://gist.github.com/asjad99/e87a695df10b0859ee943b8e661f0fc3> |
-|-----------------------------------------------|-------------------------------------------------------------------------------------------|
-| Principal Component Analysis (PCA)            |                                                                                           |
-| Probabilistic Latent Semantic Indexing (PLSA) |                                                                                           |
-| Latent Dirchlet Allocation (LDA)              |                                                                                           |
-| Logistic Matrix Factorization                 |                                                                                           |
-| Restricted Boltzmann Machines                 |                                                                                           |
-| Collaborative Filtering                       |                                                                                           |
-| Compressive sensing                           |                                                                                           |
-| Linear and convex programming                 |                                                                                           |
-
-### Graph algorithms
+### Data Engineering 
 
 
-
-
-https://blog.fastforwardlabs.com/2020/01/29/a-symbiotic-relationship-knowledge-graphs-machine-learning.html
-
-### Classic AI algorithms
-
-
-
-
-
+| Algorithm           | Code      | Blog        |
+|---------------------|-----------|-------------|
+| SQL Data Modeling   |           |             |
+| Document Model      |           |             |
+| Graph Model         |           |             |
+| Speeding up NumPY   |           | [Article](https://asjadkhan.ghost.io/speeding-up-numpy/)             |
+|                     |           |             |
 
 
 ## Math Topics
