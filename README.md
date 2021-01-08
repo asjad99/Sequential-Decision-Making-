@@ -48,34 +48,49 @@ act. Evaluate the business results to improve the overall product.
 
 ## Topics: 
 
-- Data Munging (Data Acquistion and pre-processing) 
+-  Data Engineering and Data Munging (Data Acquistion and pre-processing) 
 - Descriptive Analytics (Data Wrangling and Basic Statistics to summarize data)
 - Preditive Analytics with Machine Learning
 - Prescriptive Analytics 
-- Data Products (with NLP and Deep Learning)
 - Data Engineering with Spark 
 
 ----------------------------------------------------------------------------------------------------------------
 
-## Data Munging 
+## Data Engineering 
 
 Most data science activities starts with acquiring the relevent data. We then prepare the acquired data for analysis, usually by 
 setting up the infrastructure, performs various aggregates and incorporating domain expert knowledge.  
 
 In practice we: 
--  unfamiliar with the dataset, start with basic statistics: (Count, Mean)
+- unfamiliar with the dataset, start with basic statistics: (Count, Mean)
 - Handle uninformative and duplicative values (involves outlier removal, Gausian/Medial Filter,  Exponential smoothing etc)
 - fill in missing values (Mean, regression models and statistical distributions)
 
 
-| Notebook                 | Notebooks | Blog |
+#### Data Collection and Data Cleaning
+
+| Notebook                 | Code | Blog |
 |--------------------------|-----------|------|
 | Data Wrangling with Unix |           | post |
-| Numpy Basics Tutorial    | DN        | post |
-| Pandas Tutorial          | DN        |      |
-|                          |           |      |
-|                          |           |      |
-|                          |           |      |
+| Numpy Basics Tutorial    | Notebook        | Notes |
+| Pandas Tutorial          | Notebook        |      |
+| Speeding up NumPY        |           | [Notes](https://asjadkhan.ghost.io/speeding-up-numpy/)          |
+| Web Data Collection      | Notebook (https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
+| Spark Tutorial           |           | [Post]()     |
+
+
+#### Descriptive Statistics 
+
+### Data Models
+
+
+| Algorithm           | Notes     | 
+|---------------------|-----------|
+| Relational Data     |           |
+| Document Model      |           |
+| Graph Model         |           |
+
+
 
 
 ### Useful Guides: 
@@ -215,17 +230,6 @@ This is similar to Operations Research techniques focused on selecting the best 
   - Supporting Knowledge Instensive Processes in Clincial Settings 
 
 ------------------------------------------------------------------------------------------------------------------------
-
-### Data Engineering 
-
-
-| Algorithm           | Code      | Blog        |
-|---------------------|-----------|-------------|
-| SQL Data Modeling   |           |             |
-| Document Model      |           |             |
-| Graph Model         |           |             |
-| Speeding up NumPY   |           | [Article](https://asjadkhan.ghost.io/speeding-up-numpy/)             |
-|                     |           |             |
 
 
 ## Math Topics
