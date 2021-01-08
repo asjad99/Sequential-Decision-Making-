@@ -72,11 +72,11 @@ In practice we:
 | Notebook                 | Description | Code | Blog |
 |--------------------------|-----------|------|-------|
 | Data Wrangling with Unix | Learn various command line utlities and how they can be used to clean and compute basic statistics          | post |         |
-| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook] (https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
+| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
 | Numpy Basics Tutorial    | Learn the basics of the library that underpins scientific computing          |Notebook        | Notes |
 | Pandas Tutorial          |           |Notebook        |      |
 | Speeding up NumPY        | Learn how to get optimal performance out of NumPY | | [Notes](https://asjadkhan.ghost.io/speeding-up-numpy/)          |
-| Spark Tutorial           | Laern large scale Data Engineering with Spark          |     | [Notes] (https://asjadkhan.ghost.io/ghost/#/editor/post/5f39c86010c8da00398dc9ce)     |
+| Spark Tutorial           | Laern large scale Data Engineering with Spark          |     | [Notes](https://asjadkhan.ghost.io/ghost/#/editor/post/5f39c86010c8da00398dc9ce)     |
 
 
 ### Data Models
