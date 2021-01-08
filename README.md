@@ -63,13 +63,16 @@ Most data science activities starts with acquiring the relevent data. We then pr
 setting up the infrastructure, performs various aggregates and incorporating domain expert knowledge.  
 
 
-#### Data Munging 
+#### Data Wrangling Tools 
 
 | Notebook                 | Description | Code | Blog |
 |--------------------------|-----------|------|-------|
-| Data Wrangling with Unix | Learn various command line utlities and how they can be used to clean and compute basic statistics          | post |         |
+| Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [b_post](https://asjadkhan.ghost.io/ghost/#/site) |         |
+| Pandas Tutorial          |           |Notebook        |      |
 | Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
-| Numpy Basics Tutorial    | Learn the basics of the library that underpins scientific computing          |Notebook        | Notes |
+| numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | Notes |
+| numpy_aggregation        |           |Notebook        |      |
+| numpy_linear_algebra     |           |Notebook        |      |
 | Pandas Tutorial          |           |Notebook        |      |
 
 ### Useful Guides: 
