@@ -48,9 +48,10 @@ act. Evaluate the business results to improve the overall product.
 
 ## Topics: 
 
-- Data Engineering and Data Munging (Data Acquistion and pre-processing) 
+- Data Munging (Data Acquistion and pre-processing) 
+- Data Engineering (Large Scale Data Processing) 
 - Descriptive Analytics (Data Wrangling and Basic Statistics to summarize data)
-- Preditive Analytics with Machine Learning
+- Preditive Analytics with Machine Learning 
 - Prescriptive Analytics 
 - Data Engineering with Spark 
 
@@ -61,13 +62,8 @@ act. Evaluate the business results to improve the overall product.
 Most data science activities starts with acquiring the relevent data. We then prepare the acquired data for analysis, usually by 
 setting up the infrastructure, performs various aggregates and incorporating domain expert knowledge.  
 
-In practice we: 
-- unfamiliar with the dataset, start with basic statistics: (Count, Mean)
-- Handle uninformative and duplicative values (involves outlier removal, Gausian/Medial Filter,  Exponential smoothing etc)
-- fill in missing values (Mean, regression models and statistical distributions)
 
-
-#### Data Collection and Data Cleaning
+#### Data Munging 
 
 | Notebook                 | Description | Code | Blog |
 |--------------------------|-----------|------|-------|
@@ -75,12 +71,17 @@ In practice we:
 | Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
 | Numpy Basics Tutorial    | Learn the basics of the library that underpins scientific computing          |Notebook        | Notes |
 | Pandas Tutorial          |           |Notebook        |      |
-| Speeding up NumPY        | Learn how to get optimal performance out of NumPY | | [Notes](https://asjadkhan.ghost.io/speeding-up-numpy/)          |
-| Spark Tutorial           | Laern large scale Data Engineering with Spark          |     | [Notes](https://asjadkhan.ghost.io/ghost/#/editor/post/5f39c86010c8da00398dc9ce)     |
 
+### Useful Guides: 
+
+- Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
+- Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
+
+------------------------------------------
+
+### Data Engineering 
 
 ### Data Models
-
 
 | Algorithm           | Notes     | 
 |---------------------|-----------|
@@ -88,13 +89,14 @@ In practice we:
 | Document Model      |           |
 | Graph Model         |           |
 
+### Large-Scale Processing 
 
+| Notebook                 | Description | Code | Blog | 
+|--------------------------|-------------|------|------|
+| Speeding up Numpy        | Learn how to get optimal performance out of NumPY | | [Notes](https://asjadkhan.ghost.io/speeding-up-numpy/)          |
+| Spark Tutorial           | Learn large scale Data Engineering with Spark          |     | [Notes](https://asjadkhan.ghost.io/ghost/#/editor/post/5f39c86010c8da00398dc9ce)     |
+| Topic Modeling in Spark  | LSI Modeling in Spark to Extract document topics | [Python_code](https://gist.github.com/asjad99/e87a695df10b0859ee943b8e661f0fc3)  | |
 
-
-### Useful Guides: 
-
-- Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
-- Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
 
 
 ----------------------------------------------------------------------------------------------------------------
