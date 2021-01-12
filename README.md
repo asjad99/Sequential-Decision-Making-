@@ -24,12 +24,12 @@ into yet smaller analytics. This is described as follows:
 
 ![alt text](data_science_process.png "Logo Title Text 1")
 
-Decomposing the problem into manageable pieces is the !rst step
+Decomposing the problem into manageable pieces is the frist step
 in the analytic selection process. Achieving a desired analytic action
 often requires combining multiple analytic techniques into a holistic,
 end-to-end solution. Engineering the complete solution requires that
 the problem be decomposed into progressively smaller sub-problems.
-#e Fractal Analytic Model embodies this approach. At any given
+Fractal Analytic Model embodies this approach. At any given
 stage, the analytic itself is a collection of smaller computations that
 decompose into yet smaller computations. When the problem is
 decomposed far enough, only a single analytic technique is needed
@@ -43,6 +43,11 @@ techniques and models on subsets of the data. Evaluate the models,
 refine, evaluate again, and select a model. Do something with your
 models and results – deploy the models to inform, inspire action, and
 act. Evaluate the business results to improve the overall product.
+
+references: 
+  - Data Science Field guide - Booz Allen Hamilton
+  - https://dfrieds.com/articles/recipe-great-data-science-work.html
+  
 
 ----------------------------------------------------------------------------------------------------------------
 
