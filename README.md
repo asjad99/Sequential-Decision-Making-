@@ -70,8 +70,7 @@ setting up the infrastructure, performs various aggregates and incorporating dom
 
 Before a company can optimize the business more efficiently or build data products more intelligently, layers of foundational work need to be built first.
 
-![alt text](pyramind.png "Logo Title Text 1")
-
+![alt text](pyramid.png "Logo Title Text 1")
 
 
 #### Data Wrangling Tools Basics
