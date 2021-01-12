@@ -54,61 +54,10 @@ references:
 ## Topics: 
 
 - Data Munging (Data Acquistion and pre-processing) 
-- Data Engineering (Large Scale Data Processing) 
 - Descriptive Analytics (Data Wrangling and Basic Statistics to summarize data)
 - Preditive Analytics with Machine Learning 
 - Prescriptive Analytics 
-- Data Engineering with Spark 
-
-----------------------------------------------------------------------------------------------------------------
-
-## Data Engineering 
-
-Most data science activities starts with acquiring the relevent data. We then prepare the acquired data for analysis, usually by 
-setting up the infrastructure, performs various aggregates and incorporating domain expert knowledge.  
-
-
-Before a company can optimize the business more efficiently or build data products more intelligently, layers of foundational work need to be built first.
-
-![alt text](pyramid.png "Logo Title Text 1")
-
-
-#### Data Wrangling Tools Basics
-
-| Notebook                 | Description | Code | Blog |
-|--------------------------|-----------|------|-------|
-| Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [b_post](https://asjadkhan.ghost.io/ghost/#/site) |         |
-| Pandas Tutorial          |           |Notebook        |      |
-| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
-| numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | Notes |
-| numpy_linear_algebra     |           |Notebook        |      |
-| Pandas Tutorial          |           |Notebook        |      |
-
-### Useful Guides: 
-
-- Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
-- Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
-
-### Data Models
-
-| Algorithm           | Notes     | 
-|---------------------|-----------|
-| Relational Data     |           |
-| Document Model      |           |
-| Graph Model         |           |
-
-### Large-Scale Processing 
-
-| Notebook                 | Description | Code | Blog | 
-|--------------------------|-------------|------|------|
-| Speeding up Numpy        | Learn how to get optimal performance out of NumPY | | [Notes](https://asjadkhan.ghost.io/speeding-up-numpy/)          |
-| Spark Tutorial           | Learn large scale Data Engineering with Spark          |     | [Notes](https://asjadkhan.ghost.io/ghost/#/editor/post/5f39c86010c8da00398dc9ce)     |
-| Topic Modeling in Spark  | LSI Modeling in Spark to Extract document topics | [Python_code](https://gist.github.com/asjad99/e87a695df10b0859ee943b8e661f0fc3)  | |
-
-
-
-
-
+- Data Engineering (Large Scale Data Processing) 
 
 
 ----------------------------------------------------------------------------------------------------------------
@@ -118,14 +67,28 @@ Before a company can optimize the business more efficiently or build data produc
 Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
 It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
 
+#### Data Wrangling Tools 
 
-| Notebook                 | Notebooks | Blog |
+| Notebook                 | Description | Code |
 |--------------------------|-----------|------|
-| Seaborn                  |           |      |
-| Matplotlib               |           |      |
+| Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [blog_post](https://asjadkhan.ghost.io/ghost/#/site) |     
+| Pandas Tutorial          |           |Notebook        |     
+| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |  
+| numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | 
+| numpy_linear_algebra     |           |Notebook        |     
+| Pandas Tutorial          | Learn the basics of pandas using air pollution and temperature data for the city of Chicago          |Notebook        |      |
+
+### Useful Guides: 
+
+- Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
+- Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
+
+
+| Notebook                 | Description | Notebook |
+|--------------------------|-----------|------|
+| Data Exploration         | Data Exploration using data ozone levels dataset          |      |
+| Principles of data Exploration       |           |  Blog_post    |
 | statsmodels              |           |      |
-
-
 
 ### Useful Guides:
 
@@ -163,7 +126,7 @@ that certain customer groups are more likely to purchase?
 
 In terms of impact most of AI technologies currently being deployed are still falling under this machine learning. 
 
-According to andrew Ng: 
+According to Andrew NG: 
 
 > Almost all of AI’s recent progress is through one type, in which some input data (A) is used to quickly generate some simple response (B). Being able to 
 input A and output B will transform many industries. The technical term for building this A→B software is supervised learning. These A→B systems have been
@@ -247,8 +210,7 @@ This is similar to Operations Research techniques focused on selecting the best 
 
 
 ## Math Topics
-Data science rests on a foundation of
-mathematics, particularly statistics and linear algebra. It is important to
+Data science rests on a foundation of mathematics, particularly statistics and linear algebra. It is important to
 understand this material on an intuitive level: why these concepts were
 developed, how they are useful, and when they work best. e.g develop statistical reasoning is a core goal. 
 
