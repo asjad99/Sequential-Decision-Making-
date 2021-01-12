@@ -63,7 +63,13 @@ Most data science activities starts with acquiring the relevent data. We then pr
 setting up the infrastructure, performs various aggregates and incorporating domain expert knowledge.  
 
 
-#### Data Wrangling Tools 
+Before a company can optimize the business more efficiently or build data products more intelligently, layers of foundational work need to be built first.
+
+![alt text](pyramind.png "Logo Title Text 1")
+
+
+
+#### Data Wrangling Tools Basics
 
 | Notebook                 | Description | Code | Blog |
 |--------------------------|-----------|------|-------|
@@ -71,7 +77,6 @@ setting up the infrastructure, performs various aggregates and incorporating dom
 | Pandas Tutorial          |           |Notebook        |      |
 | Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |      |
 | numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | Notes |
-| numpy_aggregation        |           |Notebook        |      |
 | numpy_linear_algebra     |           |Notebook        |      |
 | Pandas Tutorial          |           |Notebook        |      |
 
@@ -79,10 +84,6 @@ setting up the infrastructure, performs various aggregates and incorporating dom
 
 - Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
-
-------------------------------------------
-
-### Data Engineering 
 
 ### Data Models
 
@@ -102,6 +103,10 @@ setting up the infrastructure, performs various aggregates and incorporating dom
 
 
 
+
+
+
+
 ----------------------------------------------------------------------------------------------------------------
 
 ## Descriptive Analytics 
@@ -115,6 +120,8 @@ It requires finding meaningful patterns, trends and exceptions that are easy to 
 | Seaborn                  |           |      |
 | Matplotlib               |           |      |
 | statsmodels              |           |      |
+
+
 
 ### Useful Guides:
 
