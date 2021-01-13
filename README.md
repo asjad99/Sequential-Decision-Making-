@@ -13,10 +13,8 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 > Data science = statistics + data collection + data preprocessing + machine learning + visualization + business insights + scientific hypotheses + big data + (etc)
 
 
-[cheatsheet:(https://st2.ning.com/topology/rest/1.0/file/get/1211570060?profile=original)
+[cheatsheet]:(https://st2.ning.com/topology/rest/1.0/file/get/1211570060?profile=original)
 ----------------------------------------------------------------------------------------------------------------
-
-
 #### Experiment LifeCyle - An Iterative Process: 
 
 Summary: 
@@ -68,6 +66,23 @@ read more:
   - Data Science Field guide - Booz Allen Hamilton
   - https://dfrieds.com/articles/recipe-great-data-science-work.html
   
+----------------------------------------------------------------------------------------------------------------
+#### Importance of Story telling and Case Stuides
+
+Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
+that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
+
+- What problem are we trying to solve and why its intresting? 
+- Document your assumptions and make sure they have not introduced bias in your work.
+- Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
+original intent)
+
+The goal of your analysis is to tell an actionable story. Its good to see some data science projects and learn from them. In each project, the author had a question they wanted to answer and used data to answer that question. They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
+
+- https://pennmusa.github.io/MUSA_801.io/project_5/index.html
+- https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
+- https://masalmon.eu/2017/11/16/wheretoliveus/
+- http://varianceexplained.org/r/trump-tweets/
 
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
@@ -88,36 +103,20 @@ we cover the following topics:
 1. Descriptive Analysis:
     The goal of descriptive analysis is to describe or summarize a set of data. 
     
-2. Exploratory Analysis 
+2. Exploratory Analysis:
     The goal of exploratory analysis is to examine or explore the data and find relationships that werent previously known. 
 
-3. Inferential Analysis
+3. Inferential Analysis:
     The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
 
 4. Predictive Analytics:
     The goal of predictive analysis is to use current data to make predictions about future data. 
 
-5. Causal Analysis 
+5. Causal Analysis: 
     The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
     relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
-----------------------------------------------------------------------------------------------------------------
-#### Interesting case studies: 
 
-Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
-that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
-
-- What problem are we trying to solve and why its intresting? 
-- Document your assumptions and make sure they have not introduced bias in your work.
-- Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
-original intent)
-
-The goal of your analysis is to tell an actionable story. Its good to see some data science projects and learn from them. In each project, the author had a question they wanted to answer and used data to answer that question. They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
-
-- https://pennmusa.github.io/MUSA_801.io/project_5/index.html
-- https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
-- https://masalmon.eu/2017/11/16/wheretoliveus/
-- http://varianceexplained.org/r/trump-tweets/
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -263,7 +262,6 @@ https://arxiv.org/pdf/1812.00073.pdf)
 - Feature Engineering and dimensionality reduction
 - Challenges in Deploying Machine Learning: a Survey of Case Studies
 - Challenges in Production: https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/
-
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -419,7 +417,7 @@ what kind of data exists in the domain, and how the problem space may be instrum
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 
-Acknowledements: 
+Acknowledgements: 
 
 This Project and notebooks are  inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks),
  Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
