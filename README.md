@@ -12,17 +12,22 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 
 > Data science = statistics + data collection + data preprocessing + machine learning + visualization + business insights + scientific hypotheses + big data + (etc)
 
-    - Every data Science Project starts with a question that is to be answered with data. That means forming the question is an important first step in the process. 
-    - The second step is finding or generating the data you are going to use to answer that question. 
-    - With that question solidified and data in hand, the data are then analysed, first by exploring the data and then often by modeling the data, which means using some statisitcal or machine learning techniques to analyse the data and answer your question
-    - After drawing conclusions from this analysis, the project has to be communicated to others.
 
-
-cheatsheet: https://st2.ning.com/topology/rest/1.0/file/get/1211570060?profile=original 
+[cheatsheet:(https://st2.ning.com/topology/rest/1.0/file/get/1211570060?profile=original)
 ----------------------------------------------------------------------------------------------------------------
 
 
 #### Experiment LifeCyle - An Iterative Process: 
+
+Summary: 
+- Every data Science Project starts with a question that is to be answered with data. That means forming the question is an important first step in the process. 
+- The second step is finding or generating the data you are going to use to answer that question. 
+- With that question solidified and data in hand, the data are then analysed, first by exploring the data and then often by modeling the data, which means using some statisitcal or machine learning techniques to analyse the data and answer your question
+- After drawing conclusions from this analysis, the project has to be communicated to others.
+
+
+Details: 
+
 Data Science analytics are a lot like broccoli – fractal in nature in
 both time and construction. Early versions of an analytic follow the
 same development process as later versions. At any given iteration, the
@@ -52,16 +57,16 @@ models and results – deploy the models to inform, inspire action, and
 act. Evaluate the business results to improve the overall product.
 
 
-For Machine Lerning Projects: 
+General Process for Machine Lerning Projects: 
 
 ![alt text](process.png "Logo Title Text 1")
 
-
+read more: 
+  - https://towardsdatascience.com/task-cheatsheet-for-almost-every-machine-learning-project-d0946861c6d0
 
 #### references: 
   - Data Science Field guide - Booz Allen Hamilton
   - https://dfrieds.com/articles/recipe-great-data-science-work.html
-  - https://towardsdatascience.com/task-cheatsheet-for-almost-every-machine-learning-project-d0946861c6d0
   
 
 ----------------------------------------------------------------------------------------------------------------
@@ -70,9 +75,10 @@ For Machine Lerning Projects:
 
 - Data Munging (Data Acquistion and pre-processing) 
 - Data Analytics: 
-- Prescriptive Analytics 
+- Prescriptive Analytics with Reinforcement Learning 
 - Data Engineering (Large Scale Data Processing) 
 - Project Management 
+
 ----------------------------------------------------------------------------------------------------------------
 
 ## Data Analytics: 
@@ -95,61 +101,7 @@ we cover the following topics:
     The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
     relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
-## Descriptive Analytics 
-
-Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
-It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
-
-> The goal of descriptive analysis is to describe or summarize a set of data. Whenever you get a new dataset to examine, this is usually the first kind of analysis you will perform. Descriptive analysis will generate simple summaries about the samples and their measurements. You may be familiar with common descriptive statistics: measures of central tendency (eg: mean, median, mode) or measures of variability (eg: range, standard deviations or variance).
-This type of analysis is aimed at summarizing your sample – not for generalizing the results of the analysis to a larger population or trying to make conclusions. Description of data is separated from making interpretations; generalizations and interpretations require additional statistical steps.
-Some examples of purely descriptive analysis can be seen in censuses. Here, the government collects a series of measurements on all of the country’s citizens, which can then be summarized. Here, you are being shown the age distribution in the US, stratified by sex. The goal of this is just to describe the distribution. There is no inferences about what this means or predictions on how the data might trend in the future. It is just to show you a summary of the data collected.
-
-### Data Wrangling
-
-
-> Data wrangling is about taking a messy or unrefined source of data and turning it into something useful. 
-You begin by seeking out raw data sources and determining their value: How good are they as data sets? 
-How relevant are they to your goal? Is there a better source? Once you’ve parsed and cleaned the data so that the data sets are usable, 
-you can utilize tools and methods (like Python scripts) to help you analyze them and present your findings in a report. 
-This allows you to take data no one would bother looking at and make it both clear and actionable.
-
-#### Learning the tools 
-
-| Notebook                 | Description | Code |
-|--------------------------|-----------|------|
-| Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [blog_post](https://asjadkhan.ghost.io/ghost/#/site) |     
-| Pandas Tutorial          |           |Notebook        |     
-| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |  
-| numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | 
-| numpy_linear_algebra     |           |Notebook        |     
-| Pandas Tutorial          | Learn the basics of pandas using air pollution and temperature data for the city of Chicago          |Notebook        |      |
-
-#### Exploratory Data Analysis: 
-
-The goal of exploratory analysis is to examine or explore the data and find relationships that weren’t previously known. Exploratory analyses explore how different measures might be related to each other but do not confirm that relationship as causitive. You’ve probably heard the phrase “Correlation does not imply causation” and exploratory analyses lie at the root of this saying. Just because you observe a relationship between two variables during exploratory analysis, it does not mean that one necessarily causes the other.
-
-Because of this, exploratory analyses, while useful for discovering new connections, should not be the final say in answering a question! It can allow you to formulate hypotheses and drive the design of future studies and data collection, but exploratory analysis alone should never be used as the final say on why or how data might be related to each other.
-
-Going back to the census example from above, rather than just summarizing the data points within a single variable, 
-we can look at how two or more variables might be related to each other. 
-In the plot below, we can see the percent of the workforce that is made up of women in various sectors and how that has changed between 2000 and 2016. Exploring this data, we can see quite a few relationships. Looking just at the top row of the data, we can see that women make up a vast majority of nurses and that it has slightly decreased in 16 years. While these are interesting relationships to note, the causes of these relationships is not apparent from this analysis. 
-All exploratory analysis can tell us is that a relationship exists, not the cause.
-
-| Notebook                 | Description | Notebook |
-|--------------------------|-----------|------|
-| Data Exploration         | Data Exploration using data ozone levels dataset          |      |
-| Principles of data Exploration       |           |  Blog_post    |
-| statsmodels              |           |      |
-
-### Useful Guides:
-
-Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
-The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
-
-- Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
-- Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
-- [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
-
+----------------------------------------------------------------------------------------------------------------
 #### Interesting case studies: 
 
 Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
@@ -167,17 +119,86 @@ The goal of your analysis is to tell an actionable story. Its good to see some d
 - https://masalmon.eu/2017/11/16/wheretoliveus/
 - http://varianceexplained.org/r/trump-tweets/
 
+----------------------------------------------------------------------------------------------------------------
 
+### Data Wrangling
+
+Data wrangling is about taking a messy or unrefined source of data and turning it into something useful. 
+You begin by seeking out raw data sources and determining their value: How good are they as data sets? 
+How relevant are they to your goal? Is there a better source? Once you’ve parsed and cleaned the data so that the data sets are usable, 
+you can utilize tools and methods (like Python scripts) to help you analyze them and present your findings in a report. 
+This allows you to take data no one would bother looking at and make it both clear and actionable.
+
+#### Learning the tools 
+
+| Notebook                 | Description | Code |
+|--------------------------|-----------|------|
+| Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [blog_post](https://asjadkhan.ghost.io/ghost/#/site) |     
+| Pandas Tutorial          |           |Notebook        |     
+| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |  
+| numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | 
+| numpy_linear_algebra     |           |Notebook        |     
+| Pandas Basics          | Learn the basics of pandas        |[Notebook](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb)        |      |
+
+
+
+### Notes on Data Cleaning: 
+Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
+The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
+
+
+### useful guides: 
+
+- [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
+- Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
+- Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
+
+
+
+----------------------------------------------------------------------------------------------------------------
+## Descriptive Analytics 
+
+Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
+It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
+
+The goal of descriptive analysis is to describe or summarize a set of data. Whenever you get a new dataset to examine, this is usually the first kind of analysis you will perform. Descriptive analysis will generate simple summaries about the samples and their measurements. You may be familiar with common descriptive statistics: measures of central tendency (eg: mean, median, mode) or measures of variability (eg: range, standard deviations or variance).
+This type of analysis is aimed at summarizing your sample – not for generalizing the results of the analysis to a larger population or trying to make conclusions. Description of data is separated from making interpretations; generalizations and interpretations require additional statistical steps.
+Some examples of purely descriptive analysis can be seen in censuses. Here, the government collects a series of measurements on all of the country’s citizens, which can then be summarized. Here, you are being shown the age distribution in the US, stratified by sex. The goal of this is just to describe the distribution. There is no inferences about what this means or predictions on how the data might trend in the future. It is just to show you a summary of the data collected.
+
+
+----------------------------------------------------------------------------------------------------------------
+#### Exploratory Data Analysis: 
+
+The goal of exploratory analysis is to examine or explore the data and find relationships that weren’t previously known. Exploratory analyses explore how different measures might be related to each other but do not confirm that relationship as causitive. You’ve probably heard the phrase “Correlation does not imply causation” and exploratory analyses lie at the root of this saying. Just because you observe a relationship between two variables during exploratory analysis, it does not mean that one necessarily causes the other.
+
+Because of this, exploratory analyses, while useful for discovering new connections, should not be the final say in answering a question! It can allow you to formulate hypotheses and drive the design of future studies and data collection, but exploratory analysis alone should never be used as the final say on why or how data might be related to each other.
+
+Going back to the census example from above, rather than just summarizing the data points within a single variable, 
+we can look at how two or more variables might be related to each other. 
+In the plot below, we can see the percent of the workforce that is made up of women in various sectors and how that has changed between 2000 and 2016. Exploring this data, we can see quite a few relationships. Looking just at the top row of the data, we can see that women make up a vast majority of nurses and that it has slightly decreased in 16 years. While these are interesting relationships to note, the causes of these relationships is not apparent from this analysis. 
+All exploratory analysis can tell us is that a relationship exists, not the cause.
+
+| Notebook                 | Description | Notebook |
+|--------------------------|-----------|------|
+| Data Exploration 1        | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |      |
+| Data Exploration 2        | Data Exploration using data ozone levels dataset          |      |
+| Principles of data Exploration|           |  Blog_post    |
+| statsmodels              |           |      |
+
+
+----------------------------------------------------------------------------------------------------------------
 ## Causal analysis
 
- The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
+The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
 
 ## Inferential analysis
 
 The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
-----------------------------------------------------------------------------------------------------------------
 
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 ## Predictive Analytics with Machine Learning 
 
