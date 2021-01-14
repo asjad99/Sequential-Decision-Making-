@@ -14,6 +14,14 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 
 
 [cheatsheet]:(https://st2.ning.com/topology/rest/1.0/file/get/1211570060?profile=original)
+
+
+Types of data scientists by Michael Hochster:
+
+
+> Type A Data Scientist: The A is for Analysis. This type is primarily concerned with making sense of data or working with it in a fairly static way. The Type A Data Scientist is very similar to a statistician (and may be one) but knows all the practical details of working with data that aren’t taught in the statistics curriculum: data cleaning, methods for dealing with very large data sets, visualization, deep knowledge of a particular domain, writing well about data, and so on.
+> Type B Data Scientist: The B is for Building. Type B Data Scientists share some statistical background with Type A, but they are also very strong coders and may be trained software engineers. The Type B Data Scientist is mainly interested in using data “in production.” They build models which interact with users, often serving recommendations (products, people you may know, ads, movies, search results).
+
 ----------------------------------------------------------------------------------------------------------------
 #### Experiment LifeCyle - An Iterative Process: 
 
@@ -96,30 +104,6 @@ The goal of your analysis is to tell an actionable story. Its good to see some d
 
 ----------------------------------------------------------------------------------------------------------------
 
-## Data Analytics: 
-
-we cover the following topics: 
-
-1. Descriptive Analysis:
-    The goal of descriptive analysis is to describe or summarize a set of data. 
-    
-2. Exploratory Analysis:
-    The goal of exploratory analysis is to examine or explore the data and find relationships that werent previously known. 
-
-3. Inferential Analysis:
-    The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
-
-4. Predictive Analytics:
-    The goal of predictive analysis is to use current data to make predictions about future data. 
-
-5. Causal Analysis: 
-    The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
-    relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
-
-
-
-----------------------------------------------------------------------------------------------------------------
-
 ### Data Wrangling
 
 Data wrangling is about taking a messy or unrefined source of data and turning it into something useful. 
@@ -145,12 +129,33 @@ This allows you to take data no one would bother looking at and make it both cle
 Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
 The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
 
-
 ### useful guides: 
 
 - [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
 - Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
+
+----------------------------------------------------------------------------------------------------------------
+
+## Data Analytics: 
+
+we cover the following topics: 
+
+1. Descriptive Analysis:
+    The goal of descriptive analysis is to describe or summarize a set of data. 
+    
+2. Exploratory Analysis:
+    The goal of exploratory analysis is to examine or explore the data and find relationships that werent previously known. 
+
+3. Inferential Analysis:
+    The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
+
+4. Predictive Analytics:
+    The goal of predictive analysis is to use current data to make predictions about future data. 
+
+5. Causal Analysis: 
+    The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
+    relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
 
 
@@ -189,7 +194,7 @@ All exploratory analysis can tell us is that a relationship exists, not the caus
 ## Causal analysis
 
 The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
-
+https://ff13.fastforwardlabs.com/ 
 
 ## Inferential analysis
 
@@ -197,6 +202,43 @@ The goal of inferential analysis is to use a relatively small sample of data to 
 
 
 ----------------------------------------------------------------------------------------------------------------
+
+## Experimentation  (A/B Testing)
+
+>As a Data Scientist, you get to establish causality (something really hard to do with observational data) by running actual randomized, controlled experiments. At Twitter, “It’s rare for a day to go by without running at least one experiment” — Alex Roetter, VP of Engineering. A/B testing is ingrained in our DNA and our product development cycle.
+
+Here is the typical process of running a A/B test: Gather Samples -> Assign Buckets -> Apply Treatments -> Measure Outcomes -> Make Comparisons. 
+
+Hypothesis Testing: Statistical test, p-values, statistical significance, power, effect size, multiple testing
+
+http://www.datasciencecourse.org/slides/hypothesis_testing.pdf 
+
+
+So, you need a statistically significant sample?
+Experiments at Airbnb
+When should A/B testing not to be trusted when making decisions
+
+----------------------------------------------------------------------------------------------------------------
+
+## Product Related Analysis
+
+Examples of Analysis at twitter: 
+
+1. Push Notification Analysis — How many users are eligible for push notifications? across user segment? across clients? What are the tap rates of different push notification types?
+2. SMS Delivery Rates — How do we calculate Twitter’s SMS delivery rates across different carriers? Are our delivery rates in emerging countries poorer? How can we make them better?
+3. Multiple Accounts — Why do certain countries have a higher ratio of multiple accounts? What drive people to create multiple account?
+
+> Generating insights through product analysis is an iterative process. It requires challenging the questions being asked, understanding the business context, and figuring out the right dataset to answer the questions. Over time, you will become an expert in where the data lives and what they mean. You will get better at estimating how much time it will take to carry out an analysis. More importantly, you will slowly move from a reactive state to proactive state and start suggesting interesting analyses that product leaders might not think of, because they don’t know the data exists or that disparately different data sources can be complementary and combined in a particular way.
+
+- Gather Samples — How many samples do we need? How many users should go into each bucket? Can we ensure that the experiment will have sufficient power?
+- Assign Buckets — Who are eligible to be in the experiments? and where in the code should we start assigning buckets and showing treatments? Would the placement introduce data dilution (i.e. some users are assigned to treatment but never see it)?
+- Apply Treatment — Are there any other teams in the organization running experiments that are competing for the same real estate in the app? How do we deal with experiment collision and ensure our data is not contaminated?
+- Measure Outcome — What is the hypothesis of the experiment? What are the success and failure metrics of this experiment? Can we track them? and How? What additional logging do we need to add?
+- Make Comparisons — Suppose we see that the # of users who logged-in increase dramatically, is it due to noise? How do we know if the results are statistically significant? Even if it is, is it practically significant?
+
+
+
+
 ----------------------------------------------------------------------------------------------------------------
 
 ## Predictive Analytics with Machine Learning 
@@ -290,21 +332,35 @@ This is similar to Operations Research techniques focused on selecting the best 
 > a data engineer is someone who has specialized their skills in creating software
 solutions around big data.
 
+Before we can do data science we need to setup the infrastructure
+
+![alt text](pyramid.png "Logo Title Text 1")
+
+
+At early stage start-ups: the primary analytic focus is to implement logging, to build ETL processes, to model data and design schemas so data can be tracked and stored. The goal here is focused on building the analytics foundation rather than analysis itself
+At mid-stage growing start-ups: Since the company is growing, the data is probably growing too. The data platform needs to adapt, but with the foundation laid out already, there will be a natural shift to insight generation. Unless the company leverages Data Science for its strategic differentiation to start with, many analytics work are around defining KPI, attributing growth, and finding the next opportunities to grow
+Companies who achieved scale: When the company scales up, data also scales up. It needs to leverage data to create or maintain competitive edge. e.g. Search results need to be better, recommendations need to be more relevant, logistics or operations need to be more efficient — this is the time where specialist like ML engineers, Optimization experts, Experimentation designers can play a huge role in stepping up the game.
 
 ### Data Engineering is concerned with following: 
-
-##### Build and maintain the organization’s data pipeline systems
-> Creating a data pipeline may sound easy or trivial, but at big data scale, this means bringing together 10-30 different big data technologies. 
-More importantly, a data engineer is the one who understands and chooses the right tools for the job. 
-A data engineer is the one who understands the various technologies and frameworks in-depth, and how to combine them to create solutions to enable a 
-company’s business processes with data pipelines.
-
-read moreBuilding Data Pipelines with Python — Katharine Jarmul explains how to build data pipelines and automate workflows.
 
 ##### Clean and wrangle data into a usable state
 
 > Data engineers make sure the data the organization is using is clean, reliable, and prepped for whatever use cases may present themselves. 
 Data engineers wrangle data into a state that can then have queries run against it by data scientists.
+
+##### Build and maintain the organization’s data pipeline systems
+
+> a data pipeline is nothing but a series of operations, when streamed together, helped us to automatically capture, munged, aggregated data on a recurring basis.
+
+> Creating a data pipeline may sound easy or trivial, but at big data scale, this means bringing together 10-30 different big data technologies. 
+More importantly, a data engineer is the one who understands and chooses the right tools for the job. 
+
+> A data engineer is the one who understands the various technologies and frameworks in-depth, and how to combine them to create solutions to enable a 
+company’s business processes with data pipelines.
+
+read more:
+Building Data Pipelines with Python — Katharine Jarmul explains how to build data pipelines and automate workflows.
+
 
 ### Data Models
 
@@ -357,7 +413,7 @@ developed, how they are useful, and when they work best. e.g develop statistical
 | Sets   |           |             |
 | Graph Theory             |           |             |
 | Linear Algebra |           |             |
-| Probability                |           |             |
+| Probability                |http://www.datasciencecourse.org/notes/probability/            |             |
 | Statistics                |           |             |
 
 
@@ -413,7 +469,7 @@ what kind of data exists in the domain, and how the problem space may be instrum
 - [Creating a data driven organization](https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html)
 
 - [Managing Data Science Teams and Projects](https://www.oreilly.com/library/view/managing-data-science/9781838826321/)
-
+- Interviews: http://treycausey.com/data_science_interviews.html
 --------------------------------------------------------------------
 --------------------------------------------------------------------
 
