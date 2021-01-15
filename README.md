@@ -40,7 +40,7 @@ same development process as later versions. At any given iteration, the
 analytic itself is a collection of smaller analytics that often decompose
 into yet smaller analytics. This is described as follows: 
 
-![alt text](data_science_process.png "Logo Title Text 1")
+![alt text](images/data_science_process.png "Logo Title Text 1")
 
 Decomposing the problem into manageable pieces is the frist step
 in the analytic selection process. Achieving a desired analytic action
@@ -65,7 +65,7 @@ act. Evaluate the business results to improve the overall product.
 
 General Process for Machine Lerning Projects: 
 
-![alt text](process.png "Logo Title Text 1")
+![alt text](images/process.png "Logo Title Text 1")
 
 read more: 
   - https://towardsdatascience.com/task-cheatsheet-for-almost-every-machine-learning-project-d0946861c6d0
@@ -117,7 +117,6 @@ This allows you to take data no one would bother looking at and make it both cle
 | Notebook                 | Description | Code |
 |--------------------------|-----------|------|
 | Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [blog_post](https://asjadkhan.ghost.io/ghost/#/site) |     
-| Pandas Tutorial          |           |Notebook        |     
 | Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |  
 | numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | 
 | numpy_linear_algebra     |           |Notebook        |     
@@ -160,7 +159,7 @@ we cover the following topics:
 
 
 ----------------------------------------------------------------------------------------------------------------
-## Descriptive Analytics 
+## Descriptive and Exploratory Analytics 
 
 Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
 It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
@@ -169,36 +168,41 @@ The goal of descriptive analysis is to describe or summarize a set of data. When
 This type of analysis is aimed at summarizing your sample – not for generalizing the results of the analysis to a larger population or trying to make conclusions. Description of data is separated from making interpretations; generalizations and interpretations require additional statistical steps.
 Some examples of purely descriptive analysis can be seen in censuses. Here, the government collects a series of measurements on all of the country’s citizens, which can then be summarized. Here, you are being shown the age distribution in the US, stratified by sex. The goal of this is just to describe the distribution. There is no inferences about what this means or predictions on how the data might trend in the future. It is just to show you a summary of the data collected.
 
-
 ----------------------------------------------------------------------------------------------------------------
-#### Exploratory Data Analysis: 
-
 The goal of exploratory analysis is to examine or explore the data and find relationships that weren’t previously known. Exploratory analyses explore how different measures might be related to each other but do not confirm that relationship as causitive. You’ve probably heard the phrase “Correlation does not imply causation” and exploratory analyses lie at the root of this saying. Just because you observe a relationship between two variables during exploratory analysis, it does not mean that one necessarily causes the other.
 
 Because of this, exploratory analyses, while useful for discovering new connections, should not be the final say in answering a question! It can allow you to formulate hypotheses and drive the design of future studies and data collection, but exploratory analysis alone should never be used as the final say on why or how data might be related to each other.
 
-Going back to the census example from above, rather than just summarizing the data points within a single variable, 
-we can look at how two or more variables might be related to each other. 
-In the plot below, we can see the percent of the workforce that is made up of women in various sectors and how that has changed between 2000 and 2016. Exploring this data, we can see quite a few relationships. Looking just at the top row of the data, we can see that women make up a vast majority of nurses and that it has slightly decreased in 16 years. While these are interesting relationships to note, the causes of these relationships is not apparent from this analysis. 
-All exploratory analysis can tell us is that a relationship exists, not the cause.
+Going back to the census example from above, rather than just summarizing the data points within a single variable, we can look at how two or more variables might be related to each other. 
 
-| Notebook                 | Description | Notebook |
-|--------------------------|-----------|------|
-| Data Exploration 1        | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |      |
-| Data Exploration 2        | Data Exploration using data ozone levels dataset          |      |
-| Principles of data Exploration|           |  Blog_post    |
-| statsmodels              |           |      |
 
+| Notebook            | Description | Code |
+|---------------------|-------------|------|
+| Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
+| Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
+| Data Cleaning       | Learn data cleaning with synthetic data     | |
+| Data Visualization  | Analyse Stackoverflow data using visaluzation techniques   |      |
+| Taxi data Analysis  | Mobility behaviour Analysis  of rome taxi driver |  [Repo](https://github.com/asjad99/mobility-intelligence)    | 
 
 ----------------------------------------------------------------------------------------------------------------
-## Causal analysis
 
-The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
-https://ff13.fastforwardlabs.com/ 
 
 ## Inferential analysis
 
 The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
+
+https://www.coursera.org/specializations/statistics-with-python 
+
+| Notebook            | Description | Code |
+|---------------------|-------------|------|
+| Inferential Analysis  |         |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
+
+
+
+## Causal analysis
+
+The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
+https://ff13.fastforwardlabs.com/ 
 
 
 ----------------------------------------------------------------------------------------------------------------
@@ -237,8 +241,6 @@ Examples of Analysis at twitter:
 - Make Comparisons — Suppose we see that the # of users who logged-in increase dramatically, is it due to noise? How do we know if the results are statistically significant? Even if it is, is it practically significant?
 
 
-
-
 ----------------------------------------------------------------------------------------------------------------
 
 ## Predictive Analytics with Machine Learning 
@@ -270,7 +272,7 @@ Machine Learning Engineer:
 a machine learning engineer is someone who sits at the crossroads of data science and data engineering, and has proficiency in both data engineering and 
 data science.
 
-![alt text](ml_problems.png "Logo Title Text 1")
+![alt text](images/ml_problems.png "Logo Title Text 1")
 
 
 The ultiamte goal of Machine learning is to be able to generatize to new unseen data. i.e predicting
@@ -334,7 +336,7 @@ solutions around big data.
 
 Before we can do data science we need to setup the infrastructure
 
-![alt text](pyramid.png "Logo Title Text 1")
+![alt text](images/pyramid.png "Logo Title Text 1")
 
 
 At early stage start-ups: the primary analytic focus is to implement logging, to build ETL processes, to model data and design schemas so data can be tracked and stored. The goal here is focused on building the analytics foundation rather than analysis itself
