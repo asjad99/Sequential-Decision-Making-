@@ -68,7 +68,8 @@ General Process for Machine Lerning Projects:
 ![alt text](images/process.png "Logo Title Text 1")
 
 read more: 
-  - https://towardsdatascience.com/task-cheatsheet-for-almost-every-machine-learning-project-d0946861c6d0
+  - [A Recipe for Doing Great Data Science Work] (https://dfrieds.com/articles/recipe-great-data-science-work.html)
+  - [General Check-list for ML Projects] (https://towardsdatascience.com/task-cheatsheet-for-almost-every-machine-learning-project-d0946861c6d0)
 
 #### references: 
   - Data Science Field guide - Booz Allen Hamilton
@@ -180,10 +181,13 @@ Going back to the census example from above, rather than just summarizing the da
 |---------------------|-------------|------|
 | Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
 | Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
-| Data Cleaning       | Learn data cleaning with synthetic data     | |
-| Data Visualization  | Analyse Stackoverflow data using visaluzation techniques   |      |
+| Data Cleaning       | Learn data cleaning with synthetic data     | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5Ddata_cleaning.ipynb)|
+| Data Visualization  | Analyse Stackoverflow data using visaluzation techniques   |       |
 | Taxi data Analysis  | Mobility behaviour Analysis  of rome taxi driver |  [Repo](https://github.com/asjad99/mobility-intelligence)    | 
 
+
+practice projects: https://github.com/ammarshaikh123/Projects-on-Data-Cleaning-and-Manipulation
+ 
 ----------------------------------------------------------------------------------------------------------------
 
 
@@ -480,3 +484,5 @@ Acknowledgements:
 This Project and notebooks are  inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks),
  Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
 and many others 
+
+https://www.stateof.ai/ 
