@@ -97,7 +97,7 @@ The goal of your analysis is to tell an actionable story. Its good to see some d
 ----------------------------------------------------------------------------------------------------------------
 ## Topics: 
 
-- Data Munging (Data Acquistion and pre-processing) 
+- Data Munging (Data Acquistion, Exploration and pre-processing) 
 - Data Analytics: 
 - Prescriptive Analytics with Reinforcement Learning 
 - Data Engineering (Large Scale Data Processing) 
@@ -121,9 +121,7 @@ This allows you to take data no one would bother looking at and make it both cle
 | Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |  
 | numpy_Basics     | Learn the basics of the library that underpins scientific computing          |Notebook        | 
 | numpy_linear_algebra     |           |Notebook        |     
-| Pandas Basics          | Learn the basics of pandas        |[Notebook](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb)        |      |
-
-
+| Pandas Basics            | Learn the basics of pandas        |[Notebook](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb)        |      |
 
 ### Notes on Data Cleaning: 
 Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
@@ -134,6 +132,46 @@ The computations we perform must be reproducible and tweakable. Data Pipelines n
 - [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
 - Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
+
+----------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+
+## Exploratory Analysis  
+> The goal of exploratory analysis is to examine or explore the data and find relationships that weren’t previously known. 
+Exploratory analyses explore how different measures might be related to each other but do not confirm that relationship as causitive. 
+
+EDA is useful for
+• detection of mistakes
+• checking of assumptions
+• determining relationships among the explanatory variables
+• assessing the direction and rough size of relationships between explanatory
+and outcome variables, and
+• preliminary selection of appropriate models of the relationship between an
+outcome variable and one or more explanatory variables.
+
+
+We should always perform appropriate EDA before
+further analysis of our data. Perform whatever steps are necessary
+to become more familiar with your data, check for obvious mistakes,
+learn about variable distributions, and learn about relationships between variables. EDA is not an exact science – it is a very important
+art!
+
+
+| Notebook            | Description | Code |
+|---------------------|-------------|------|
+| Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
+| Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
+| Data Cleaning       | Learn data cleaning with synthetic data     | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5Ddata_cleaning.ipynb)|
+
+Useful Guides: 
+
+- [Chapter 4, Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
+- [Section 1, Hands-On Exploratory Data Analysis with Python](https://www.packtpub.com/product/hands-on-exploratory-data-analysis-with-python/9781789537253)
+- [Chapter 1, Practical Statistics for Data Scientists, 2nd Edition](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/ch01.html) 
+- [Tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) 
+
+practice projects: https://github.com/ammarshaikh123/Projects-on-Data-Cleaning-and-Manipulation
+ 
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -157,10 +195,7 @@ we cover the following topics:
     The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
     relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
-
-
-----------------------------------------------------------------------------------------------------------------
-## Descriptive and Exploratory Analytics 
+## Descriptive Analysis 
 
 Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
 It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
@@ -169,27 +204,17 @@ The goal of descriptive analysis is to describe or summarize a set of data. When
 This type of analysis is aimed at summarizing your sample – not for generalizing the results of the analysis to a larger population or trying to make conclusions. Description of data is separated from making interpretations; generalizations and interpretations require additional statistical steps.
 Some examples of purely descriptive analysis can be seen in censuses. Here, the government collects a series of measurements on all of the country’s citizens, which can then be summarized. Here, you are being shown the age distribution in the US, stratified by sex. The goal of this is just to describe the distribution. There is no inferences about what this means or predictions on how the data might trend in the future. It is just to show you a summary of the data collected.
 
-----------------------------------------------------------------------------------------------------------------
-The goal of exploratory analysis is to examine or explore the data and find relationships that weren’t previously known. Exploratory analyses explore how different measures might be related to each other but do not confirm that relationship as causitive. You’ve probably heard the phrase “Correlation does not imply causation” and exploratory analyses lie at the root of this saying. Just because you observe a relationship between two variables during exploratory analysis, it does not mean that one necessarily causes the other.
-
-Because of this, exploratory analyses, while useful for discovering new connections, should not be the final say in answering a question! It can allow you to formulate hypotheses and drive the design of future studies and data collection, but exploratory analysis alone should never be used as the final say on why or how data might be related to each other.
-
-Going back to the census example from above, rather than just summarizing the data points within a single variable, we can look at how two or more variables might be related to each other. 
-
-
 | Notebook            | Description | Code |
 |---------------------|-------------|------|
-| Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
-| Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
-| Data Cleaning       | Learn data cleaning with synthetic data     | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5Ddata_cleaning.ipynb)|
 | Data Visualization  | Analyse Stackoverflow data using visaluzation techniques   |       |
 | Taxi data Analysis  | Mobility behaviour Analysis  of rome taxi driver |  [Repo](https://github.com/asjad99/mobility-intelligence)    | 
 
 
-practice projects: https://github.com/ammarshaikh123/Projects-on-Data-Cleaning-and-Manipulation
- 
-----------------------------------------------------------------------------------------------------------------
+Useful Guides: 
 
+- [Economist](https://www.economist.com/graphic-detail/)
+- [What's going on in this graph](https://www.nytimes.com/column/whats-going-on-in-this-graph)
+- [Edward Tufte](https://www.edwardtufte.com/tufte/)
 
 ## Inferential analysis
 
@@ -211,20 +236,36 @@ https://ff13.fastforwardlabs.com/
 
 ----------------------------------------------------------------------------------------------------------------
 
-## Experimentation  (A/B Testing)
+## Experimental Design  
 
+
+![alt text](images/experiment_cycle.png "Logo Title Text 1")
+
+
+
+
+Useful Guide: 
+- [Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
+
+
+### A/B Testing
 >As a Data Scientist, you get to establish causality (something really hard to do with observational data) by running actual randomized, controlled experiments. At Twitter, “It’s rare for a day to go by without running at least one experiment” — Alex Roetter, VP of Engineering. A/B testing is ingrained in our DNA and our product development cycle.
 
 Here is the typical process of running a A/B test: Gather Samples -> Assign Buckets -> Apply Treatments -> Measure Outcomes -> Make Comparisons. 
 
 Hypothesis Testing: Statistical test, p-values, statistical significance, power, effect size, multiple testing
 
-http://www.datasciencecourse.org/slides/hypothesis_testing.pdf 
 
+
+
+
+http://www.datasciencecourse.org/slides/hypothesis_testing.pdf 
 
 So, you need a statistically significant sample?
 Experiments at Airbnb
 When should A/B testing not to be trusted when making decisions
+
+
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -341,7 +382,6 @@ solutions around big data.
 Before we can do data science we need to setup the infrastructure
 
 ![alt text](images/pyramid.png "Logo Title Text 1")
-
 
 At early stage start-ups: the primary analytic focus is to implement logging, to build ETL processes, to model data and design schemas so data can be tracked and stored. The goal here is focused on building the analytics foundation rather than analysis itself
 At mid-stage growing start-ups: Since the company is growing, the data is probably growing too. The data platform needs to adapt, but with the foundation laid out already, there will be a natural shift to insight generation. Unless the company leverages Data Science for its strategic differentiation to start with, many analytics work are around defining KPI, attributing growth, and finding the next opportunities to grow
