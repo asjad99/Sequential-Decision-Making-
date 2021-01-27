@@ -123,15 +123,23 @@ This allows you to take data no one would bother looking at and make it both cle
 | numpy_linear_algebra     |           |Notebook        |     
 | Pandas Basics            | Learn the basics of pandas        |[Notebook](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb)        |      |
 
-### Notes on Data Cleaning: 
+
+### Data Cleaning: 
 Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
 The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
+
+
+| Notebook            | Description | Code |
+|---------------------|-------------|------|
+| Data Cleaning       | Learn data cleaning with synthetic data | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5Ddata_cleaning.ipynb)|
+
 
 ### useful guides: 
 
 - [Reproducability in Data Science](https://maxmasnick.com/media/slides/data-analysis-reproducibility/data-analysis-reproducibility.pdf)
 - Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
+- [Tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) 
 
 ----------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
@@ -161,14 +169,12 @@ art!
 |---------------------|-------------|------|
 | Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
 | Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
-| Data Cleaning       | Learn data cleaning with synthetic data     | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5Ddata_cleaning.ipynb)|
 
 Useful Guides: 
 
 - [Chapter 4, Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
 - [Section 1, Hands-On Exploratory Data Analysis with Python](https://www.packtpub.com/product/hands-on-exploratory-data-analysis-with-python/9781789537253)
 - [Chapter 1, Practical Statistics for Data Scientists, 2nd Edition](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/ch01.html) 
-- [Tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) 
 
 practice projects: https://github.com/ammarshaikh123/Projects-on-Data-Cleaning-and-Manipulation
  
@@ -212,6 +218,7 @@ Some examples of purely descriptive analysis can be seen in censuses. Here, the 
 
 Useful Guides: 
 
+- [Statistics for Social Sciences]
 - [Economist](https://www.economist.com/graphic-detail/)
 - [What's going on in this graph](https://www.nytimes.com/column/whats-going-on-in-this-graph)
 - [Edward Tufte](https://www.edwardtufte.com/tufte/)
