@@ -1,5 +1,28 @@
 
-## Introduction: 
+## Topics: 
+
+- [Introduction to data Science](#introduction-to-Data-Science)
+- Data Science Experiment LifeCyle - An Iterative Process:  
+- Importance of Story telling and Case Stuides
+- Data Wrangling Tools 
+- Exploratory Data Analysis 
+- Data Cleaning 
+- Experimental Design - Randomized Control - Hypothesis Testing
+- Product Related Analysis 
+- Data Analytics (Descriptive, Inferential, Predictive, Causal)
+- Natural Language Processing 
+- Decision Making (Probability, Reinforcement Learning)
+- Process Analytics
+- Data Engineering (Large Scale Data Processing) 
+- Math for Data Science
+- Project Management for data Science 
+
+
+## #introduction-to-Data-Science 
+
+
+
+
 
 Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at 
 CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the 
@@ -15,15 +38,19 @@ Instead of providing a sophisticated definition of Data Science, We run with thi
 
 [cheatsheet]:(https://st2.ning.com/topology/rest/1.0/file/get/1211570060?profile=original)
 
-
 Types of data scientists by Michael Hochster:
 
 
 > Type A Data Scientist: The A is for Analysis. This type is primarily concerned with making sense of data or working with it in a fairly static way. The Type A Data Scientist is very similar to a statistician (and may be one) but knows all the practical details of working with data that aren’t taught in the statistics curriculum: data cleaning, methods for dealing with very large data sets, visualization, deep knowledge of a particular domain, writing well about data, and so on.
 > Type B Data Scientist: The B is for Building. Type B Data Scientists share some statistical background with Type A, but they are also very strong coders and may be trained software engineers. The Type B Data Scientist is mainly interested in using data “in production.” They build models which interact with users, often serving recommendations (products, people you may know, ads, movies, search results).
 
+
+read more: 
+- [Competing in a Data-Driven World: An executive Guide](https://asjadkhan.ghost.io/generating-business-value-with-ai-an-executive-guide/)
+- [Rise of Data Products](https://asjadkhan.ghost.io/untitled/)
+
 ----------------------------------------------------------------------------------------------------------------
-#### Experiment LifeCyle - An Iterative Process: 
+#### Data Science Experiment LifeCyle - An Iterative Process: 
 
 Summary: 
 - Every data Science Project starts with a question that is to be answered with data. That means forming the question is an important first step in the process. 
@@ -76,7 +103,7 @@ read more:
   - https://dfrieds.com/articles/recipe-great-data-science-work.html
   
 ----------------------------------------------------------------------------------------------------------------
-#### Importance of Story telling and Case Stuides
+#### Importance of Story telling and Case Studies
 
 Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
 that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
@@ -94,18 +121,8 @@ The goal of your analysis is to tell an actionable story. Its good to see some d
 - http://varianceexplained.org/r/trump-tweets/
 
 ----------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------
-## Topics: 
 
-- Data Munging (Data Acquistion, Exploration and pre-processing) 
-- Data Analytics: 
-- Prescriptive Analytics with Reinforcement Learning 
-- Data Engineering (Large Scale Data Processing) 
-- Project Management 
-
-----------------------------------------------------------------------------------------------------------------
-
-### Data Wrangling
+## Data Wrangling Tools
 
 Data wrangling is about taking a messy or unrefined source of data and turning it into something useful. 
 You begin by seeking out raw data sources and determining their value: How good are they as data sets? 
@@ -123,8 +140,56 @@ This allows you to take data no one would bother looking at and make it both cle
 | numpy_linear_algebra     |           |Notebook        |     
 | Pandas Basics            | Learn the basics of pandas        |[Notebook](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb)        |      |
 
+-------------------------------------------------------------------------------------------------------------------
 
-### Data Cleaning: 
+## Exploratory Data Analysis  
+
+> The goal of exploratory analysis is to examine or explore the data and find relationships that weren’t previously known. 
+Exploratory analyses explore how different measures might be related to each other but do not confirm that relationship as causitive. 
+
+EDA is useful for
+• detection of mistakes
+• checking of assumptions
+• determining relationships among the explanatory variables
+• assessing the direction and rough size of relationships between explanatory
+and outcome variables, and
+• preliminary selection of appropriate models of the relationship between an
+outcome variable and one or more explanatory variables.
+
+EDA always precedes formal (confirmatory) data analysis.
+
+People are not very good at looking at a column of numbers or a whole spreadsheet and then determining important characteristics of the data. They find looking at numbers to be tedious, boring, and/or overwhelming. Exploratory data analysis techniques have been devised as an aid in this situation. Most of these techniques work in part by hiding certain aspects of the data while making other aspects more clear.
+
+key points:  
+
+    - First, each method is either non-graphical or graphical. 
+    - And second, each method is either univariate or multivariate (usually just bivariate).
+    - The four types of EDA are univariate non-graphical, multivariate nongraphical, univariate graphical, and multivariate graphical.
+
+> Non-graphical methods generally involve calculation of summary statistics, while graphical methods obviously summarize the data in a diagrammatic or pictorial way. 
+> Univariate methods look at one variable (data column) at a time, while multivariate methods look at two or more variables at a time to explore relationships. Usually our multivariate EDA will be bivariate (looking at exactly two variables), but occasionally it will involve three or more variables. It is almost always a good idea to perform univariate EDA on each of the components of a multivariate EDA before performing the multivariate EDA.
+
+We should always perform appropriate EDA before further analysis of our data. Perform whatever steps are necessary to become more familiar with your data, check for obvious mistakes,
+learn about variable distributions, and learn about relationships between variables. EDA is not an exact science – it is a very important
+art!
+
+
+| Title            | Description | Code |
+|---------------------|-------------|------|
+| Univariate Non-Graphical Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
+| Univariate Non-Graphical Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
+| Graphical Data Exploration    | Data Exploration using visualization techniques        | Notebook    |
+
+Useful Guides: 
+
+- [Chapter 4, Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
+- [Section 1, Hands-On Exploratory Data Analysis with Python](https://www.packtpub.com/product/hands-on-exploratory-data-analysis-with-python/9781789537253)
+- [Chapter 1, Practical Statistics for Data Scientists, 2nd Edition](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/ch01.html) 
+
+practice projects: https://github.com/ammarshaikh123/Projects-on-Data-Cleaning-and-Manipulation
+ 
+
+## Data Cleaning: 
 Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
 The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
 
@@ -141,43 +206,6 @@ The computations we perform must be reproducible and tweakable. Data Pipelines n
 - Guide by Jeff lean on [how to share data with a statistician](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/3.%20Data_Cleaning.ipynb)
 - [Tidy data](http://vita.had.co.nz/papers/tidy-data.pdf) 
 
-----------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------
-
-## Exploratory Analysis  
-> The goal of exploratory analysis is to examine or explore the data and find relationships that weren’t previously known. 
-Exploratory analyses explore how different measures might be related to each other but do not confirm that relationship as causitive. 
-
-EDA is useful for
-• detection of mistakes
-• checking of assumptions
-• determining relationships among the explanatory variables
-• assessing the direction and rough size of relationships between explanatory
-and outcome variables, and
-• preliminary selection of appropriate models of the relationship between an
-outcome variable and one or more explanatory variables.
-
-
-We should always perform appropriate EDA before
-further analysis of our data. Perform whatever steps are necessary
-to become more familiar with your data, check for obvious mistakes,
-learn about variable distributions, and learn about relationships between variables. EDA is not an exact science – it is a very important
-art!
-
-
-| Notebook            | Description | Code |
-|---------------------|-------------|------|
-| Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
-| Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
-
-Useful Guides: 
-
-- [Chapter 4, Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
-- [Section 1, Hands-On Exploratory Data Analysis with Python](https://www.packtpub.com/product/hands-on-exploratory-data-analysis-with-python/9781789537253)
-- [Chapter 1, Practical Statistics for Data Scientists, 2nd Edition](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/ch01.html) 
-
-practice projects: https://github.com/ammarshaikh123/Projects-on-Data-Cleaning-and-Manipulation
- 
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -187,17 +215,14 @@ we cover the following topics:
 
 1. Descriptive Analysis:
     The goal of descriptive analysis is to describe or summarize a set of data. 
-    
-2. Exploratory Analysis:
-    The goal of exploratory analysis is to examine or explore the data and find relationships that werent previously known. 
 
-3. Inferential Analysis:
+2. Inferential Analysis:
     The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
 
-4. Predictive Analytics:
+3. Predictive Analytics:
     The goal of predictive analysis is to use current data to make predictions about future data. 
 
-5. Causal Analysis: 
+4. Causal Analysis: 
     The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
     relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
@@ -227,13 +252,14 @@ Useful Guides:
 
 The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
 
-https://www.coursera.org/specializations/statistics-with-python 
 
 | Notebook            | Description | Code |
 |---------------------|-------------|------|
-| Inferential Analysis  |         |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
+| Inferential Analysis  |         |  Notebook|
+Useful resoruces: 
 
-
+https://www.coursera.org/specializations/statistics-with-python  
+Experimental Design and Analysis: http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf
 
 ## Causal analysis
 
@@ -243,19 +269,12 @@ https://ff13.fastforwardlabs.com/
 
 ----------------------------------------------------------------------------------------------------------------
 
-## Experimental Design  
-
+## Experimental Design - Randomized Control - Hypothesis Testing 
 
 ![alt text](images/experiment_cycle.png "Logo Title Text 1")
 
-
-
-
-Useful Guide: 
-- [Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
-
-
 ### A/B Testing
+
 >As a Data Scientist, you get to establish causality (something really hard to do with observational data) by running actual randomized, controlled experiments. At Twitter, “It’s rare for a day to go by without running at least one experiment” — Alex Roetter, VP of Engineering. A/B testing is ingrained in our DNA and our product development cycle.
 
 Here is the typical process of running a A/B test: Gather Samples -> Assign Buckets -> Apply Treatments -> Measure Outcomes -> Make Comparisons. 
@@ -263,16 +282,12 @@ Here is the typical process of running a A/B test: Gather Samples -> Assign Buck
 Hypothesis Testing: Statistical test, p-values, statistical significance, power, effect size, multiple testing
 
 
-
-
-
-http://www.datasciencecourse.org/slides/hypothesis_testing.pdf 
-
-So, you need a statistically significant sample?
-Experiments at Airbnb
-When should A/B testing not to be trusted when making decisions
-
-
+Useful Guide: 
+- [Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
+- http://www.datasciencecourse.org/slides/hypothesis_testing.pdf 
+- So, you need a statistically significant sample?
+- Experiments at Airbnb
+- When should A/B testing not to be trusted when making decisions
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -361,7 +376,13 @@ https://arxiv.org/pdf/1812.00073.pdf)
 
 ----------------------------------------------------------------------------------------------------------------
 
-## Predictive Analytics with Reinforcement Learning 
+## Decision Making 
+
+Optimal Decision in Prescene of uncertainty with probability:  
+
+- http://www.datasciencecourse.org/notes/probability/ 
+
+### Markov decision Processes and Reinforcement Learning:  
 
 We can model many problems as a Markov Decision Process or POMDP. We define a reward function that captures out goals and we then find a policy that maximuses the sum of future rewards.
 This is similar to Operations Research techniques focused on selecting the best element from a set of available alternatives to maximize a utility function. 
@@ -377,7 +398,30 @@ This is similar to Operations Research techniques focused on selecting the best 
 
 #### Resources 
   - [Math of RL](https://www.youtube.com/watch?app=desktop&v=LiaEmNToeQA&list=PLTPQEx-31JXhguCush5J7OGnEORofoCW9&index=17&t=0s)
+  - [RL Course](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
   - [Deep Reinforcement Learning](https://spinningup.openai.com/en/latest/)
+
+TODO: add notebooks 
+
+------------------------------------------------------------------------------------------------------------------------
+## Process Analytics
+
+
+### Introduction 
+
+- Introduction to Business Process Analytics
+- Improving Process Efficiency with Process Mining
+- Case Study: Improving treatment careflow with Process Mining
+
+### Projects: 
+
+- https://asjadkhan.ghost.io/deepprocess/ 
+- [Supporting Knowledge Instensive Processes in Clincial Settings](https://asjadkhan.ghost.io/ghost/#/site) 
+
+resources: 
+
+https://github.com/asjad99/process-analytics 
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
