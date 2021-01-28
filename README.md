@@ -17,8 +17,9 @@
 - Math for Data Science
 - Project Management for data Science 
 
+--------------------------------------------------------------------------------------------------------
 
-##introduction to Data Science 
+## introduction to Data Science 
 
 Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at 
 CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the 
