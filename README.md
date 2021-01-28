@@ -2,14 +2,12 @@
 
 ### About: 
 
-This Project and notebooks are currently 'work in progress'
+- This Project and notebooks are currently 'work in progress'. 
 
-It's inspired by [Open Source Society University
-](https://github.com/ossu/data-science), peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks),
-multiple Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
-and many others. 
+- It's inspired by [Open Source Society University](https://github.com/ossu/data-science), peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks),
+multiple Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/) and many others. 
 
-It provides an opportunity to document some of my own learning and for self-taught learners to learn data science for free. 
+- It provides an opportunity to document some of my own learnings and for self-taught learners out there to learn data science for free. 
 
 --------------------------------------------------------------------------------------------------------
 
@@ -17,20 +15,20 @@ It provides an opportunity to document some of my own learning and for self-taug
 
 - [Introduction to data Science](#introduction-to-Data-Science)
 - [Data Science Experiment LifeCyle](#Data-Science-Experiment-LifeCyle)
-- [Importance of Story telling and Case Studies](#Importance-of-Story-telling-and-Case-Studies)
 - [Data Wrangling Tools](#Data-Wrangling-Tools)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data Cleaning](#Data-Cleaning)
+- [Data Analytics (Descriptive, Inferential, Predictive, Causal)](#Data-Analytics-(Descriptive,-Inferential,-Predictive,-Causal))
+- [Importance of Story telling and Case Studies](#Importance-of-Story-telling-and-Case-Studies)
 - [Experimental Design - Randomized Control - Hypothesis Testing](#Experimental-Design---Randomized Control---Hypothesis-Testing)
 - [Product Related Analysis](#Product-Related-Analysis)
-- [Data Analytics (Descriptive, Inferential, Predictive, Causal)](#Data-Analytics-(Descriptive,-Inferential,-Predictive,-Causal))
-- [Natural Language Processing](Natural-Language-Processing)
-- [Decision Making (Probability, Reinforcement Learning)](Decision-Making-(Probability,-Reinforcement-Learning))
-- [Process Analytics](Process-Analytics)
-- [Data Engineering (Large Scale Data Processing)](Data-Engineering-(Large-Scale-Data-Processing))
-- [Math for Data Science](Math-for-Data-Science)
-- [Project Management for data Science](Project-Management-for-data-Science)
-- [Useful datasets](#Useful datasets) 
+- [Natural Language Processing](#Natural-Language-Processing)
+- [Decision Making (Probability, Reinforcement Learning)](#Decision-Making-(Probability,-Reinforcement-Learning))
+- [Process Analytics](#Process-Analytics)
+- [Data Engineering (Large Scale Data Processing)](#Data-Engineering-(Large-Scale-Data-Processing))
+- [Math for Data Science](#Math-for-Data-Science)
+- [Project Management for data Science](#Project-Management-for-data-Science)
+- [Useful datasets](#Useful-datasets) 
 
 --------------------------------------------------------------------------------------------------------
 
@@ -81,10 +79,6 @@ same development process as later versions. At any given iteration, the
 analytic itself is a collection of smaller analytics that often decompose
 into yet smaller analytics. 
 
-This is described as follows: 
-
-![alt text](images/data_science_process.png "Logo Title Text 1")
-
 Decomposing the problem into manageable pieces is the frist step
 in the analytic selection process. Achieving a desired analytic action
 often requires combining multiple analytic techniques into a holistic,
@@ -98,17 +92,10 @@ to achieve the analytic goal. Problem decomposition creates multiple
 sub-problems, each with their own goals, data, computations, and
 actions.
 
-  Set up the infrastructure, aggregate and prepare the data, and
-incorporate domain expert knowledge. Try di$erent analytic
-techniques and models on subsets of the data. Evaluate the models,
-refine, evaluate again, and select a model. Do something with your
-models and results – deploy the models to inform, inspire action, and
-act. Evaluate the business results to improve the overall product.
+
+![alt text](images/data_science_process.png "Logo Title Text 1")
 
 
-General Process for Machine Lerning Projects: 
-
-![alt text](images/process.png "Logo Title Text 1")
 
 read more: 
   - [A Recipe for Doing Great Data Science Work] (https://dfrieds.com/articles/recipe-great-data-science-work.html)
@@ -118,27 +105,6 @@ read more:
   - Data Science Field guide - Booz Allen Hamilton
   - https://dfrieds.com/articles/recipe-great-data-science-work.html
   
-----------------------------------------------------------------------------------------------------------------
-#### Importance of Story telling and Case Studies
-
-Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
-that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
-
-- What problem are we trying to solve and why its intresting? 
-- Document your assumptions and make sure they have not introduced bias in your work.
-- Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
-original intent)
-
-The goal of your analysis is to tell an actionable story. 
-Its good to see some data science projects and learn from them. 
-In each project, the author had a question they wanted to answer and used data to answer that question. 
-They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. 
-Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
-
-- https://pennmusa.github.io/MUSA_801.io/project_5/index.html
-- https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
-- https://masalmon.eu/2017/11/16/wheretoliveus/
-- http://varianceexplained.org/r/trump-tweets/
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -289,6 +255,27 @@ Experimental Design and Analysis: http://www.stat.cmu.edu/~hseltman/309/Book/Boo
 The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 https://ff13.fastforwardlabs.com/ 
 
+----------------------------------------------------------------------------------------------------------------
+#### Importance of Story telling and Case Studies
+
+Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
+that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
+
+- What problem are we trying to solve and why its intresting? 
+- Document your assumptions and make sure they have not introduced bias in your work.
+- Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
+original intent)
+
+The goal of your analysis is to tell an actionable story. 
+Its good to see some data science projects and learn from them. 
+In each project, the author had a question they wanted to answer and used data to answer that question. 
+They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. 
+Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
+
+- https://pennmusa.github.io/MUSA_801.io/project_5/index.html
+- https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
+- https://masalmon.eu/2017/11/16/wheretoliveus/
+- http://varianceexplained.org/r/trump-tweets/
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -331,6 +318,15 @@ Examples of Analysis at twitter:
 - Make Comparisons — Suppose we see that the # of users who logged-in increase dramatically, is it due to noise? How do we know if the results are statistically significant? Even if it is, is it practically significant?
 
 
+Implementing models: 
+
+  Set up the infrastructure, aggregate and prepare the data, and
+incorporate domain expert knowledge. Try different analytic
+techniques and models on subsets of the data. Evaluate the models,
+refine, evaluate again, and select a model. Do something with your
+models and results – deploy the models to inform, inspire action, and
+act. Evaluate the business results to improve the overall product.
+
 ----------------------------------------------------------------------------------------------------------------
 
 ## Predictive Analytics with Machine Learning 
@@ -365,9 +361,14 @@ data science.
 ![alt text](images/ml_problems.png "Logo Title Text 1")
 
 
-The ultiamte goal of Machine learning is to be able to generatize to new unseen data. i.e predicting
+The ultimate goal of Machine learning is to be able to generatize to new unseen data. i.e predicting
 behavior under new conditions. we study Problems like: Regression, Clustering, Classication, Recommendation. 
 
+
+
+General Process for Machine Learning Projects: 
+
+![alt text](images/process.png "Logo Title Text 1")
 
 | Algorithm           | Notebooks | Description |
 |---------------------|-----------|-------------|
@@ -396,6 +397,18 @@ https://arxiv.org/pdf/1812.00073.pdf)
 - Feature Engineering and dimensionality reduction
 - Challenges in Deploying Machine Learning: a Survey of Case Studies
 - Challenges in Production: https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/
+
+
+## Deep Learning and Natural Language Processing
+
+
+Useful Guides: 
+  - [History of Deep Learning](https://asjadkhan.ghost.io/ghost/#/editor/post/5f3cd59a8344050039baeaa2/)
+
+Resources: 
+
+
+
 
 ----------------------------------------------------------------------------------------------------------------
 
