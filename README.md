@@ -1,21 +1,36 @@
 
+
+### About: 
+
+This Project and notebooks are currently 'work in progress'
+
+It's inspired by [Open Source Society University
+](https://github.com/ossu/data-science), peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks),
+multiple Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
+and many others. 
+
+It provides an opportunity to document some of my own learning and for self-taught learners to learn data science for free. 
+
+--------------------------------------------------------------------------------------------------------
+
 ## Topics: 
 
 - [Introduction to data Science](#introduction-to-Data-Science)
-- Data Science Experiment LifeCyle - An Iterative Process:  
-- Importance of Story telling and Case Stuides
-- Data Wrangling Tools 
-- Exploratory Data Analysis 
-- Data Cleaning 
-- Experimental Design - Randomized Control - Hypothesis Testing
-- Product Related Analysis 
-- Data Analytics (Descriptive, Inferential, Predictive, Causal)
-- Natural Language Processing 
-- Decision Making (Probability, Reinforcement Learning)
-- Process Analytics
-- Data Engineering (Large Scale Data Processing) 
-- Math for Data Science
-- Project Management for data Science 
+- [Data Science Experiment LifeCyle](#Data-Science-Experiment-LifeCyle)
+- [Importance of Story telling and Case Studies](#Importance-of-Story-telling-and-Case-Studies)
+- [Data Wrangling Tools](#Data-Wrangling-Tools)
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+- [Data Cleaning](#Data-Cleaning)
+- [Experimental Design - Randomized Control - Hypothesis Testing](#Experimental-Design---Randomized Control---Hypothesis-Testing)
+- [Product Related Analysis](#Product-Related-Analysis)
+- [Data Analytics (Descriptive, Inferential, Predictive, Causal)](#Data-Analytics-(Descriptive,-Inferential,-Predictive,-Causal))
+- [Natural Language Processing](Natural-Language-Processing)
+- [Decision Making (Probability, Reinforcement Learning)](Decision-Making-(Probability,-Reinforcement-Learning))
+- [Process Analytics](Process-Analytics)
+- [Data Engineering (Large Scale Data Processing)](Data-Engineering-(Large-Scale-Data-Processing))
+- [Math for Data Science](Math-for-Data-Science)
+- [Project Management for data Science](Project-Management-for-data-Science)
+- [Useful datasets](#Useful datasets) 
 
 --------------------------------------------------------------------------------------------------------
 
@@ -47,12 +62,14 @@ read more:
 - [Rise of Data Products](https://asjadkhan.ghost.io/untitled/)
 
 ----------------------------------------------------------------------------------------------------------------
-#### Data Science Experiment LifeCyle - An Iterative Process: 
+#### Data Science Experiment LifeCyle: 
 
 Summary: 
+-
 - Every data Science Project starts with a question that is to be answered with data. That means forming the question is an important first step in the process. 
 - The second step is finding or generating the data you are going to use to answer that question. 
 - With that question solidified and data in hand, the data are then analysed, first by exploring the data and then often by modeling the data, which means using some statisitcal or machine learning techniques to analyse the data and answer your question
+- This is an iterative Process 
 - After drawing conclusions from this analysis, the project has to be communicated to others.
 
 
@@ -62,7 +79,9 @@ Data Science analytics are a lot like broccoli – fractal in nature in
 both time and construction. Early versions of an analytic follow the
 same development process as later versions. At any given iteration, the
 analytic itself is a collection of smaller analytics that often decompose
-into yet smaller analytics. This is described as follows: 
+into yet smaller analytics. 
+
+This is described as follows: 
 
 ![alt text](images/data_science_process.png "Logo Title Text 1")
 
@@ -110,7 +129,11 @@ that can lead to erroneous conclusions. We should try to clearly communite our f
 - Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
 original intent)
 
-The goal of your analysis is to tell an actionable story. Its good to see some data science projects and learn from them. In each project, the author had a question they wanted to answer and used data to answer that question. They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
+The goal of your analysis is to tell an actionable story. 
+Its good to see some data science projects and learn from them. 
+In each project, the author had a question they wanted to answer and used data to answer that question. 
+They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. 
+Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
 
 - https://pennmusa.github.io/MUSA_801.io/project_5/index.html
 - https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
@@ -186,7 +209,10 @@ Useful Guides:
 practice projects: https://github.com/ammarshaikh123/Projects-on-Data-Cleaning-and-Manipulation
  
 
+----------------------------------------------------------------------------------------------------------------
+
 ## Data Cleaning: 
+
 Data Formats should be easy for computers to parse, people to read and widely used by systems in production. 
 The computations we perform must be reproducible and tweakable. Data Pipelines need to be documented. 
 
@@ -223,7 +249,7 @@ we cover the following topics:
     The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
     relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
-## Descriptive Analysis 
+### Descriptive Analysis 
 
 Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
 It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
@@ -245,7 +271,7 @@ Useful Guides:
 - [What's going on in this graph](https://www.nytimes.com/column/whats-going-on-in-this-graph)
 - [Edward Tufte](https://www.edwardtufte.com/tufte/)
 
-## Inferential analysis
+### Inferential analysis
 
 The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
 
@@ -258,7 +284,7 @@ Useful resoruces:
 https://www.coursera.org/specializations/statistics-with-python  
 Experimental Design and Analysis: http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf
 
-## Causal analysis
+### Causal analysis
 
 The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 https://ff13.fastforwardlabs.com/ 
@@ -495,7 +521,9 @@ storage engines (e.g. S3, HDFS, HBase, Kudu)
 - Is dataFrame just a table
 - https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design
 - SQL Mastery
+
 ------------------------------------------------------------------------------------------------------------------------
+
 ## Math for Data Science
 Data science rests on a foundation of mathematics, particularly statistics and linear algebra. It is important to
 understand this material on an intuitive level: why these concepts were
@@ -564,13 +592,12 @@ what kind of data exists in the domain, and how the problem space may be instrum
 
 - [Managing Data Science Teams and Projects](https://www.oreilly.com/library/view/managing-data-science/9781838826321/)
 - Interviews: http://treycausey.com/data_science_interviews.html
---------------------------------------------------------------------
---------------------------------------------------------------------
 
-Acknowledgements: 
+----------------------------------------------------------------------------------------------------------------------------------------
+Useful datasets 
 
-This Project and notebooks are  inspired by peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks),
- Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/).  
-and many others 
 
-https://www.stateof.ai/ 
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
