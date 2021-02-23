@@ -364,7 +364,7 @@ Useful Guides:
 ----------------------------------------------------------------------------------------------------------------
 
 
-### Inferential analysis
+### Inferential analysis (with Statistics)
 
 The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
 
@@ -376,6 +376,10 @@ Useful resoruces:
 
 https://www.coursera.org/specializations/statistics-with-python  
 Experimental Design and Analysis: http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf
+
+https://online-learning.harvard.edu/course/data-science-inference-and-modeling?delta=0 
+https://www.amazon.com/Statistics-Course-Pack-Set-Op/dp/1138838349/ref=sr_1_1?keywords=Statistics+Plain&qid=1572967665&sr=8-1 
+https://greenteapress.com/thinkstats/thinkstats.pdf
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -443,6 +447,7 @@ act. Evaluate the business results to improve the overall product.
 ## Predictive Analytics with Machine Learning 
 
 Machine Learning  
+
 - Machine Learning is the modern probabilistic approach to artificial intelligence. It studies algorithms that learn to predict from (usually independent and identically distributed) data.
 - It Utilizes past observation data to predict future observations. e.g Can we predict which products
 that certain customer groups are more likely to purchase? 
@@ -461,7 +466,6 @@ According to Andrew NG:
 input A and output B will transform many industries. The technical term for building this A→B software is supervised learning. These A→B systems have been
 improving rapidly, and the best ones today are built with a technology called deep learning or deep neural networks, which were loosely inspired by the brain. 
 
-![alt text](images/machine_learning_1.png "Logo Title Text 1")
 
 
 #### Machine Learning Engineer: 
@@ -519,6 +523,9 @@ Note: Data Cleaning and EDA was covered earlier, the next step is pre-processing
 Machine Learning folks divide themselves in different tribes (popularized by peter domingos - Author of master algorithm)
 
 ![alt text](images/ml_tribes.png "Logo Title Text 1")
+
+![alt text](images/machine_learning_1.jpg "Logo Title Text 1")
+
 
 [Peter Domingos ted talk](https://youtu.be/qIZ5PXLVZfo)
 
