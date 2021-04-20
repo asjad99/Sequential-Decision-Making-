@@ -18,7 +18,7 @@ multiple Project's by folks like: [Donne_Martin](https://github.com/donnemartin/
 
 - [Computational notebooks](https://www.nature.com/articles/d41586-018-07196-1): Computational notebooks are essentially laboratory notebooks for scientific computing. We use Notebooks for Practice(as they are best suited for scientific computing). This is closely related to litrate programming paradigm(as conceived by Don Knuth) 
 
-- [Career paths in AI](https://workera.ai/resource_downloads/ai_career_pathways/)
+- This is a long list. see [this great article](https://towardsdatascience.com/how-to-become-a-data-scientist-2a02ed565336) on how to approach it depending on the [Career paths you decide to take](https://workera.ai/resource_downloads/ai_career_pathways/)
 
 --------------------------------------------------------------------------------------------------------
 
@@ -265,7 +265,7 @@ art!
 |---------------------|-------------|------|
 | Univariate Non-Graphical Data Exploration    | Learn Exploratory data analysis using air pollution and temperature data for the city of Chicago          |  [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5Bpandas%5DEDA_pollution.ipynb)    |
 | Univariate Non-Graphical Data Exploration    | Data Exploration using data ozone levels dataset          | [Notebook](https://deepnote.com/project/8c259dff-61ed-46cb-aa94-fdda7d3fdc8e#%2Fdatascience-GYM%2FData_Munging%2F%5BPandas%5DEDA_ozone.ipynb)    |
-| Graphical Data Exploration    | Data Exploration using visualization techniques        | Notebook    |
+| Graphical Data Exploration    | Data Exploration using visualization techniques        | [Notebook](https://deepnote.com/project/Data-Science-Journey-jCWd_2HtRsuqlP3afT_cjg/%2Fdatascience-GYM%2FData_Science%2F%5BEDA%5DUnivariate_mulitvariate_graphical.ipynb)    |
 
 Useful Guides: 
 
@@ -315,8 +315,9 @@ By: Michael Walker
 
 we cover the following topics: 
 
-1. Descriptive Analysis:
+1. Descriptive Analysis / Diagnostic Aaalytics / Data Mining :
     The goal of descriptive analysis is to describe or summarize a set of data. 
+    The goal of diagnostic and data mining is to look for hidden insights, answer questions and so on.
 
 2. Inferential Analysis:
     The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
@@ -331,7 +332,7 @@ we cover the following topics:
 ----------------------------------------------------------------------------------------------------------------
 
 
-### Descriptive Analysis 
+### Descriptive Analysis / Diagnostic Aaalytics / Data Mining 
 
 Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
 It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
@@ -349,11 +350,12 @@ Some examples of purely descriptive analysis can be seen in censuses. Here, the 
 
 | Notebook            | Description | Code |
 |---------------------|-------------|------|
-| Data Visualization  | Analyse Stackoverflow data using visaluzation techniques   |       |
+| Data Visualization  | Analyse Stackoverflow data using visaluzation techniques   | [Notebook](https://deepnote.com/project/Data-Science-Journey-jCWd_2HtRsuqlP3afT_cjg/%2Fdatascience-GYM%2FData_Munging%2Fstackoverflow.ipynb)      |
 | Taxi data Analysis  | Mobility behaviour Analysis  of rome taxi driver |  [Repo](https://github.com/asjad99/mobility-intelligence)    | 
 
 
-Useful Guides: 
+Read More: 
+
 - Guide for [Common Data Types and Formats](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb)
 - [Statistics for Social Sciences](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
 - [Edward Tufte's Books](https://www.edwardtufte.com/tufte/)
@@ -446,7 +448,7 @@ act. Evaluate the business results to improve the overall product.
 
 ## Predictive Analytics with Machine Learning 
 
-Machine Learning  
+#### Machine Learning Introduction
 
 - Machine Learning is the modern probabilistic approach to artificial intelligence. It studies algorithms that learn to predict from (usually independent and identically distributed) data.
 - It Utilizes past observation data to predict future observations. e.g Can we predict which products
@@ -467,48 +469,60 @@ input A and output B will transform many industries. The technical term for buil
 improving rapidly, and the best ones today are built with a technology called deep learning or deep neural networks, which were loosely inspired by the brain. 
 
 
-
-#### Machine Learning Engineer: 
-
-a machine learning engineer is someone who sits at the crossroads of data science and data engineering, and has proficiency in both data engineering and 
+Machine Learning Engineer: A machine learning engineer is someone who sits at the crossroads of data science and data engineering, and has proficiency in both data engineering and 
 data science.
 
 ![alt text](images/ml_problems.png "Logo Title Text 1")
 
 
+### Brief History of AI: 
+  - [Artificial Intelligence and Machine Learning] (https://www.youtube.com/watch?v=t4K6lney7Zw&list=PLUl4u3cNGP62uI_DWNdWoIMsgPcLGOx-V) 
+  - [AI, Deep Learning, and Machine Learning: A Primer](https://a16z.com/2016/06/10/ai-deep-learning-machines/)
+  - [For a programmers intro Welch Labs also has some great series on machine learning](https://youtu.be/i8D90DkCLhI​)
+  - [Peter Domingos ted talk](https://youtu.be/qIZ5PXLVZfo)
+
+
+-----------------------------------------------------------
+
+### Theory: 
+
 The ultimate goal of Machine learning is to be able to generatize to new unseen data. i.e predicting
 behavior under new conditions. we study Problems like: Regression, Clustering, Classication, Recommendation. 
 
 
+Machine Learning folks divide themselves in different tribes (popularized by peter domingos - Author of master algorithm)
 
-#### General Process for Machine Learning Projects: 
+![alt text](images/ml_tribes.png "Logo Title Text 1")
 
-![alt text](images/process.png "Logo Title Text 1")
+![alt text](images/machine_learning_1.jpg "Logo Title Text 1")
 
 
-### Brief History of AI: 
-  - [Artificial Intelligence and Machine Learning] (https://www.youtube.com/watch?v=t4K6lney7Zw&list=PLUl4u3cNGP62uI_DWNdWoIMsgPcLGOx-V) 
-  - [AI, Deep Learning, and Machine Learning: A Primer](https://a16z.com/2016/06/10/ai-deep-learning-machines/)
-
-### Theory: 
 > In tackling machine learning (and computer science in general) we face some deep philosophical questions. Questions like, “What does it mean to learn?” and, “Can a computer learn?” and, “How do you define simplicity?” and, “Why does Occam’s Razor work? (Why do simple hypotheses do well at modelling reality?)” In a very deep sense, learning theorists take these philosophical questions — or at least aspects of them — give them fleshy mathematical bodies, and then answer them with theorems and proofs. These fleshy bodies might have imperfections or they might only address one small part of a big question, but the more we think about them the closer we get to robust answers and, as a reader of this blog might find relevant, useful applications. But the glamorous big-picture stuff is an important part of the allure of learning theory.
 
-[by j2kun](https://jeremykun.com/2014/01/02/probably-approximately-correct-a-formal-theory-of-learning/)
 
 Basics: 
 - [MIT's Introduction to Machine Learning] ([https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/])
 - [DeepLearning book chapter 4]()
-- [First 3 lectures of Andrew NG]()
+- [Andrew NG Course in ML]()
 
-Misc: 
+read more: 
 
+- [PAC by j2kun](https://jeremykun.com/2014/01/02/probably-approximately-correct-a-formal-theory-of-learning/)
 - [Understanding Generalizations in Machine Learning](https://www.asjadk.io/untitled-3/)
 - [Why is ML hard](http://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html)
 - [Neural Networks](http://karpathy.github.io/neuralnets/) 
 - [Feature Engineering and dimensionality reduction](https://learning.oreilly.com/library/view/feature-engineering-for/9781491953235/)
 - [Machine Learning Mind Map](https://github.com/dformoso/machine-learning-mindmap) 
 
+
+-----------------------------------------------------------
+
+
 ### ML Labs: 
+
+#### General Process for Machine Learning Projects: 
+
+![alt text](images/process.png "Logo Title Text 1")
 
 
 #### Feature Engineering: 
@@ -520,14 +534,7 @@ Note: Data Cleaning and EDA was covered earlier, the next step is pre-processing
 
 #### Algorithmic Modeling 
 
-Machine Learning folks divide themselves in different tribes (popularized by peter domingos - Author of master algorithm)
 
-![alt text](images/ml_tribes.png "Logo Title Text 1")
-
-![alt text](images/machine_learning_1.jpg "Logo Title Text 1")
-
-
-[Peter Domingos ted talk](https://youtu.be/qIZ5PXLVZfo)
 
 
 | Algorithm           | Notebooks | Description |
@@ -558,6 +565,8 @@ Support Vector Machines (inner products, primal problem, dual problem)
 
 
 
+-----------------------------------------------------------
+
 
 ### ML in Production
 
@@ -587,8 +596,6 @@ Support Vector Machines (inner products, primal problem, dual problem)
 
 ----------------------------------------------------------------------------------------------------------------
 
-
-
 ## Deep Learning and Natural Language Processing
 
 - According to J. Kolter at CMU:  
@@ -611,12 +618,10 @@ Topics:
 
 
 Useful guides: 
+  - [Deep Learning and neural networks](http://neuralnetworksanddeeplearning.com/)
   - [How neural networks work](https://omar-florez.github.io/scratch_mlp/)
   - [Deep Learning Nature Paper](https://www.nature.com/articles/nature14539)
   - [History of Deep Learning](https://www.asjadk.io/history-of-deep-learning/)
-
-
-
 
 
 ----------------------------------------------------------------------------------------------------------------
@@ -825,6 +830,9 @@ https://docs.google.com/document/d/1b9iuZiDEGVLHyMmnf6w2y1aN6yWQhAyqk3GHlpI9q6M/
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Math for Data Science
+
+https://www.overleaf.com/project/60321e0c4ca63c16ec680cde
+
 Data science rests on a foundation of mathematics, particularly statistics and linear algebra. It is important to
 understand this material on an intuitive level: why these concepts were
 developed, how they are useful, and when they work best. e.g develop statistical reasoning is a core goal. 
