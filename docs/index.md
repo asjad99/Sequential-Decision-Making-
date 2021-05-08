@@ -1,6 +1,7 @@
-sss
+Data Science - A Primer 
+
 ### About: 
-- This Project and notebooks are currently 'work in progress'. 
+- These Notes and notebooks are currently 'work in progress'. 
 
 - It's inspired by [Open Source Society University](https://github.com/ossu/data-science), peter norvig's [pytudes project](https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks),
 multiple Project's by folks like: [Donne_Martin](https://github.com/donnemartin/data-science-ipython-notebooks), [Dfriends](https://dfrieds.com/), [Chris_albon](https://chrisalbon.com/) and many others. 
@@ -41,11 +42,11 @@ multiple Project's by folks like: [Donne_Martin](https://github.com/donnemartin/
 Data science organizations help a firm’s leaders make scientific or data-driven decisions to run their business more effectively.
 Team members collect data, analyze datasets, and suggest hypotheses and actions.
 
-Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at 
-CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the 
-data they collect(e.g user data and event data) to make data-informed decisions which replaces the old model of going with the gut instinct, 
+Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the  data they collect(e.g user data and event data) to make data-informed decisions which replaces the old model of going with the gut instinct, 
 loudest voice, and best argument methods. The insights gathered through this process can help improve existing processes and lower operations cost. 
+
 Learning 'how to be smart with data' is also bit of an art, that requires curosity, creativity and attention to detail and so on. 
+
 All of this requires experience and practice.  
 
 Instead of providing a sophisticated definition of Data Science, We run with this definition for now(by J. Kolter at CMU): 
@@ -112,29 +113,25 @@ actions.
 #### readmore/references: 
   - Data Science Field guide - Booz Allen Hamilton
   - [A Recipe for Doing Great Data Science Work](https://dfrieds.com/articles/recipe-great-data-science-work.html)
-  
+
 
 ----------------------------------------------------------------------------------------------------------------
 ## Importance of Story telling and Case Studies
 
-Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
-that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
+The goal of your analysis is to tell an actionable story. Following project illustrate this: 
+
+- [Predicting Spatial Risk of Opioid Overdoses in Providence, RI](https://pennmusa.github.io/MUSA_801.io/project_5/index.html)
+- [Tidying and mapping Toronto open data](https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/)
+- [Where to live in the US](https://masalmon.eu/2017/11/16/wheretoliveus/)
+- [Text analysis of Trump's tweets confirms he writes only the (angrier) Android half](http://varianceexplained.org/r/trump-tweets/)
+
+Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: 
 
 - What problem are we trying to solve and why its intresting? 
 - Document your assumptions and make sure they have not introduced bias in your work.
-- Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
-original intent)
+- Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the original intent)
 
-The goal of your analysis is to tell an actionable story. 
-Its good to see some data science projects and learn from them. 
-In each project, the author had a question they wanted to answer and used data to answer that question. 
-They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. 
-Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
-
-- https://pennmusa.github.io/MUSA_801.io/project_5/index.html
-- https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/
-- https://masalmon.eu/2017/11/16/wheretoliveus/
-- http://varianceexplained.org/r/trump-tweets/
+Its good to see some data science projects and learn from them.  In each project, the author had a question they wanted to answer and used data to answer that question.  They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings.  Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -165,20 +162,20 @@ This allows you to take data no one would bother looking at and make it both cle
 
 | Notebook                 | Description | Code |
 |--------------------------|-----------|------|
-| Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [blog_post](https://asjadkhan.ghost.io/ghost/#/site) |     
-| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |  
-| numpy_Basics     | Learn the basics of the library that underpins scientific computing          |[Notebook](/work/datascience-GYM/Data_Munging/[Numpy]basics.ipynb)        | 
-| numpy_linear_algebra     |           |Notebook        |     
-| Pandas Basics            | Learn the basics of pandas        |[Notebook](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb)        |      |
+| Command-line             | Learn various unix command line utlities and how they can be used to clean and compute basic statistics          | [blog_post](https://asjadkhan.ghost.io/ghost/#/site) |
+| Web Data Collection      | Learn to collect data available on web (APIs or web scrapping)          | [Notebook](https://github.com/asjad99/datascience-GYM/tree/master/data_engineering)          |
+| numpy_Basics     | Learn the basics of the library that underpins scientific computing          |[Notebook](/work/datascience-GYM/Data_Munging/[Numpy]basics.ipynb)        |
+| Pandas Basics | Learn the basics of Pandas |[Notebook](https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb)        |
+|                     |                                                              |                                                              |
 
 ## Guides on Python Programming
 
-- How to think like a CS in python
-- SCIP in python
-- Hitch Hiker's Guide to python
-- python env https://jacobian.org/2018/feb/21/python-environment-2018/
-- Cheatsheet
-- Mit Hacker tools
+- [How to think like a CS in python](https://openbookproject.net/thinkcs/python/english3e/)
+- [SCIP in python](https://wizardforcel.gitbooks.io/sicp-in-python/content/1.html)
+- [Hitch Hiker's Guide to python](https://docs.python-guide.org/)
+- [Python Env Setup  Guide](https://jacobian.org/2018/feb/21/python-environment-2018)
+- [Python Cheatsheet](https://www.pythoncheatsheet.org/)
+- [MIT Hacker tools](https://missing.csail.mit.edu/)
 - [Data Algorithms](https://github.com/asjad99/modern_algorithms_toolkit)   
 
 ----------------------------------------------------------------------------------------------------------------
@@ -187,42 +184,39 @@ This allows you to take data no one would bother looking at and make it both cle
 
 we cover the following topics: 
 
-1. Descriptive Analysis / Diagnostic Aaalytics / Data Mining :
-    The goal of descriptive analysis is to describe or summarize a set of data. 
-    The goal of diagnostic and data mining is to look for hidden insights, answer questions and so on.
-
-2. Inferential Analysis:
+1. **Descriptive Analysis / Diagnostic Aaalytics / Data Mining :**
+    The goal of descriptive analysis is to describe or summarize a set of data. The goal of diagnostic and data mining is to look for hidden insights, answer questions and so on.
+    
+2. **Inferential Analysis:**
     The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
 
-3. Predictive Analytics:
+3. **Predictive Analytics:**
     The goal of predictive analysis is to use current data to make predictions about future data. 
 
-4. Causal Analysis: 
-    The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
-    relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
+4. **Causal Analysis:** 
+    The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the  relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
 
 ----------------------------------------------------------------------------------------------------------------
 
 ### Descriptive Analysis / Diagnostic Aaalytics / Data Mining 
 
-Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
-It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
+Descriptive Analytics is aimed at answering real business questions. Describing the dataset at hand, Discovering insigths and Acting on those insights.  It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
 
-The goal of descriptive analysis is to describe or summarize a set of data. Whenever you get a new dataset to examine, this is usually the first kind of analysis you will perform. Descriptive analysis will generate simple summaries about the samples and their measurements. You may be familiar with common descriptive statistics: measures of central tendency (eg: mean, median, mode) or measures of variability (eg: range, standard deviations or variance).
-This type of analysis is aimed at summarizing your sample – not for generalizing the results of the analysis to a larger population or trying to make conclusions. Description of data is separated from making interpretations; generalizations and interpretations require additional statistical steps.
-Some examples of purely descriptive analysis can be seen in censuses. Here, the government collects a series of measurements on all of the country’s citizens, which can then be summarized. Here, you are being shown the age distribution in the US, stratified by sex. The goal of this is just to describe the distribution. There is no inferences about what this means or predictions on how the data might trend in the future. It is just to show you a summary of the data collected.
+The goal of descriptive analysis is also describe or summarize a set of data. Whenever you get a new dataset to examine, this is usually the first kind of analysis you will perform. Descriptive analysis will generate simple summaries about the samples and their measurements. You may be familiar with common descriptive statistics: measures of central tendency (eg: mean, median, mode) or measures of variability (eg: range, standard deviations or variance). This type of analysis is aimed at summarizing your sample – not for generalizing the results of the analysis to a larger population or trying to make conclusions. Description of data is separated from making interpretations; generalizations and interpretations require additional statistical steps.
+
+Some examples of purely descriptive analysis can be seen in censuses. Here, the government collects a series of measurements on all of the country’s citizens, which can then be summarized. Here, you are being shown the age distribution in the US, stratified by sex. The goal of this is just to describe the distribution. There is no inferences about what this means or predictions on how the data might trend in the future. It is just to shows you a summary of the data collected.
 
 
 - Framing a question
 - Statistics knowledge (covered earlier in EDA)
 
 
-### Projects: 
+### Case Studies: 
 
-| Notebook            | Description | Code |
-|---------------------|-------------|------|
-| Data Visualization  | Analyse Stackoverflow data using visaluzation techniques   | [Notebook](https://deepnote.com/project/Data-Science-Journey-jCWd_2HtRsuqlP3afT_cjg/%2Fdatascience-GYM%2FData_Munging%2Fstackoverflow.ipynb)      |
-| Taxi data Analysis  | Mobility behaviour Analysis  of rome taxi driver |  [Repo](https://github.com/asjad99/mobility-intelligence)    | 
+| Project               | Description                                              | Code                                                         |
+| --------------------- | -------------------------------------------------------- | ------------------------------------------------------------ |
+| Survey Data Analysis  | Analyse Stackoverflow data using visaluzation techniques | [Notebook](https://deepnote.com/project/Data-Science-Journey-jCWd_2HtRsuqlP3afT_cjg/%2Fdatascience-GYM%2FData_Munging%2Fstackoverflow.ipynb) |
+| Mining Rome Taxi Data | Mobility behaviour Analysis  of Rome taxi driver         | [Repo](https://github.com/asjad99/mobility-intelligence)     |
 
 
 Read More: 
@@ -237,32 +231,44 @@ Read More:
 ----------------------------------------------------------------------------------------------------------------
 
 
-### Inferential analysis (with Statistics)
+### Inferential Analysis 
 
 The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. 
 
 
 | Notebook            | Description | Code |
 |---------------------|-------------|------|
-| Inferential Analysis  |         |  Notebook|
+| Inferential Analysis  |         |  |
 
 
-###### Useful resoruces: 
+###### Useful Resources: 
 
+- [Statistics with Python](https://www.coursera.org/specializations/statistics-with-python)
 
--[Statistics with Python](https://www.coursera.org/specializations/statistics-with-python)
--[Experimental Design and Analysis:](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
-
-https://online-learning.harvard.edu/course/data-science-inference-and-modeling?delta=0 
-https://www.amazon.com/Statistics-Course-Pack-Set-Op/dp/1138838349/ref=sr_1_1?keywords=Statistics+Plain&qid=1572967665&sr=8-1 
-https://greenteapress.com/thinkstats/thinkstats.pdf
+- [Experimental Design and Analysis](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
+- [Data Science: Inference and Modeling](https://online-learning.harvard.edu/course/data-science-inference-and-modeling?delta=0) 
+  https://www.amazon.com/Statistics-Course-Pack-Set-Op/dp/1138838349/ref=sr_1_1?keywords=Statistics+Plain&qid=1572967665&sr=8-1 
+  https://greenteapress.com/thinkstats/thinkstats.pdf
 
 ----------------------------------------------------------------------------------------------------------------
 
 ### Causal analysis
 
 The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. Looking at the cause and effect of a relationship. 
-https://ff13.fastforwardlabs.com/ 
+
+| Title | Description                                             | Code                                                         |
+| ----- | ------------------------------------------------------- | ------------------------------------------------------------ |
+|       | Counterfactual Learning in Batch Reinforcement Learning | [Blog Post](https://www.asjadk.io/counterfactual-policy-evaluation/) |
+|       |                                                         |                                                              |
+
+Applications: 
+
+​	- []
+
+Useful Resources: 
+
+- [The Book of Why: The New Science of Cause and Effect]()
+- https://ff13.fastforwardlabs.com/ 
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -439,4 +445,3 @@ https://github.com/beamandrew/medical-data
 > Perched atop the Cerro Pachón ridge in the Chilean Andes is a building site that will eventually become the Large Synoptic Survey Telescope (LSST). When it comes online in 2022, the telescope will generate terabytes of data each night as it surveys the southern skies automatically. And to crunch those data, astronomers will use a familiar and increasingly popular tool: the Jupyter notebook.
 
 > "In Short, the new breed of scientist must be a broadly-trained expert in statistics, in computing, in algorithmic building, in software design."
- 
