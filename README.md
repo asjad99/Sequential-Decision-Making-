@@ -1,5 +1,3 @@
-Hello
---------------------------------------------------------------------------------------------------------
 
 ### About: 
 - This Project and notebooks are currently 'work in progress'. 
@@ -183,8 +181,6 @@ This allows you to take data no one would bother looking at and make it both cle
 - Mit Hacker tools
 - [Data Algorithms](https://github.com/asjad99/modern_algorithms_toolkit)   
 
--------------------------------------------------------------------------------------------------------------------
-
 ----------------------------------------------------------------------------------------------------------------
 
 ## Data Analytics: 
@@ -249,10 +245,13 @@ The goal of inferential analysis is to use a relatively small sample of data to 
 | Notebook            | Description | Code |
 |---------------------|-------------|------|
 | Inferential Analysis  |         |  Notebook|
-Useful resoruces: 
 
-https://www.coursera.org/specializations/statistics-with-python  
-Experimental Design and Analysis: http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf
+
+###### Useful resoruces: 
+
+
+-[Statistics with Python](https://www.coursera.org/specializations/statistics-with-python)
+-[Experimental Design and Analysis:](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
 
 https://online-learning.harvard.edu/course/data-science-inference-and-modeling?delta=0 
 https://www.amazon.com/Statistics-Course-Pack-Set-Op/dp/1138838349/ref=sr_1_1?keywords=Statistics+Plain&qid=1572967665&sr=8-1 
@@ -262,7 +261,7 @@ https://greenteapress.com/thinkstats/thinkstats.pdf
 
 ### Causal analysis
 
-The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
+The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. Looking at the cause and effect of a relationship. 
 https://ff13.fastforwardlabs.com/ 
 
 ----------------------------------------------------------------------------------------------------------------
@@ -319,22 +318,24 @@ refine, evaluate again, and select a model. Do something with your
 models and results – deploy the models to inform, inspire action, and
 act. Evaluate the business results to improve the overall product.
 
-----------------------------------------------------------------------------------------------------------------
 
-## Predictive Analytics with Machine Learning 
-https://github.com/asjad99/Machine-Learning-GYM/blob/main/README.md
+##### Predictive Analytics with Machine Learning 
+
+ See [Machine Learning GYM](https://github.com/asjad99/Machine-Learning-GYM/blob/main/README.md)
 
 
-## Reinforcement Learning: 
-https://github.com/asjad99/Deep-Reinforcement-Learning 
-------------------------------------------------------------------------------------------------------------------------
-## Process Analytics
-https://github.com/asjad99/process-analytics 
+#####  Reinforcement Learning: 
 
-------------------------------------------------------------------------------------------------------------------------
+See [Reinforcement Learning GYM](https://github.com/asjad99/Deep-Reinforcement-Learning)
+
+
+#####  Process Analytics
+
+See [Reinforcement Learning GYM](https://github.com/asjad99/process-analytics) 
+
 
 ## Data Engineering 
-https://github.com/asjad99/data-engineering-ml-ops
+See [Data Engineering](https://github.com/asjad99/data-engineering-ml-ops)
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -357,7 +358,7 @@ developed, how they are useful, and when they work best. e.g develop statistical
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## Project Management 
+### Project Management 
 
 Data Science is more than feature engineering, training models. XOR build applications and deploy models. Its involves:
 
