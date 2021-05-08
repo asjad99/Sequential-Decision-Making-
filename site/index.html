@@ -1,0 +1,1313 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.4">
+    
+    
+      
+        <title>My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.bde7dde4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#about" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    About:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topics" class="md-nav__link">
+    Topics:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-data-science" class="md-nav__link">
+    Introduction to Data Science
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction to Data Science">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inductive-vs-deductive-reasoning" class="md-nav__link">
+    Inductive vs Deductive Reasoning:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-science-experiment-lifecyle" class="md-nav__link">
+    Data Science Experiment LifeCyle:
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Science Experiment LifeCyle:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#details" class="md-nav__link">
+    Details:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readmorereferences" class="md-nav__link">
+    readmore/references:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importance-of-story-telling-and-case-studies" class="md-nav__link">
+    Importance of Story telling and Case Studies
+  </a>
+  
+    <nav class="md-nav" aria-label="Importance of Story telling and Case Studies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-acquizition" class="md-nav__link">
+    Data Acquizition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-wrangling-tools-and-libraries" class="md-nav__link">
+    Data Wrangling Tools and Libraries
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Wrangling Tools and Libraries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-the-tools" class="md-nav__link">
+    Learning the tools
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guides-on-python-programming" class="md-nav__link">
+    Guides on Python Programming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analytics" class="md-nav__link">
+    Data Analytics:
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Analytics:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descriptive-analysis-diagnostic-aaalytics-data-mining" class="md-nav__link">
+    Descriptive Analysis / Diagnostic Aaalytics / Data Mining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projects" class="md-nav__link">
+    Projects:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inferential-analysis-with-statistics" class="md-nav__link">
+    Inferential analysis (with Statistics)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causal-analysis" class="md-nav__link">
+    Causal analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    Experimental Design
+  </a>
+  
+    <nav class="md-nav" aria-label="Experimental Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#randomized-control" class="md-nav__link">
+    Randomized Control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hypothesis-testing" class="md-nav__link">
+    Hypothesis Testing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ab-testing" class="md-nav__link">
+    A/B Testing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-related-analysis" class="md-nav__link">
+    Product Related Analysis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predictive-analytics-with-machine-learning" class="md-nav__link">
+    Predictive Analytics with Machine Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reinforcement-learning" class="md-nav__link">
+    Reinforcement Learning:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#httpsgithubcomasjad99deep-reinforcement-learning" class="md-nav__link">
+    https://github.com/asjad99/Deep-Reinforcement-Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-analytics" class="md-nav__link">
+    Process Analytics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-engineering" class="md-nav__link">
+    Data Engineering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#math-for-data-science" class="md-nav__link">
+    Math for Data Science
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-management" class="md-nav__link">
+    Project Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Project Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-science-maturity-within-an-organization" class="md-nav__link">
+    Data Science Maturity within an Organization:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-your-data-science-team" class="md-nav__link">
+    Building Your Data Science Team:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referenes-and-further-readings" class="md-nav__link">
+    Referenes and Further Readings:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inspiring-data-products" class="md-nav__link">
+    Inspiring Data Products
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-datasets" class="md-nav__link">
+    Useful datasets
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    About:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topics" class="md-nav__link">
+    Topics:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-data-science" class="md-nav__link">
+    Introduction to Data Science
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction to Data Science">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inductive-vs-deductive-reasoning" class="md-nav__link">
+    Inductive vs Deductive Reasoning:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-science-experiment-lifecyle" class="md-nav__link">
+    Data Science Experiment LifeCyle:
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Science Experiment LifeCyle:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#details" class="md-nav__link">
+    Details:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#readmorereferences" class="md-nav__link">
+    readmore/references:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importance-of-story-telling-and-case-studies" class="md-nav__link">
+    Importance of Story telling and Case Studies
+  </a>
+  
+    <nav class="md-nav" aria-label="Importance of Story telling and Case Studies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-acquizition" class="md-nav__link">
+    Data Acquizition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-wrangling-tools-and-libraries" class="md-nav__link">
+    Data Wrangling Tools and Libraries
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Wrangling Tools and Libraries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-the-tools" class="md-nav__link">
+    Learning the tools
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guides-on-python-programming" class="md-nav__link">
+    Guides on Python Programming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analytics" class="md-nav__link">
+    Data Analytics:
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Analytics:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descriptive-analysis-diagnostic-aaalytics-data-mining" class="md-nav__link">
+    Descriptive Analysis / Diagnostic Aaalytics / Data Mining
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projects" class="md-nav__link">
+    Projects:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inferential-analysis-with-statistics" class="md-nav__link">
+    Inferential analysis (with Statistics)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causal-analysis" class="md-nav__link">
+    Causal analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    Experimental Design
+  </a>
+  
+    <nav class="md-nav" aria-label="Experimental Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#randomized-control" class="md-nav__link">
+    Randomized Control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hypothesis-testing" class="md-nav__link">
+    Hypothesis Testing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ab-testing" class="md-nav__link">
+    A/B Testing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-related-analysis" class="md-nav__link">
+    Product Related Analysis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predictive-analytics-with-machine-learning" class="md-nav__link">
+    Predictive Analytics with Machine Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reinforcement-learning" class="md-nav__link">
+    Reinforcement Learning:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#httpsgithubcomasjad99deep-reinforcement-learning" class="md-nav__link">
+    https://github.com/asjad99/Deep-Reinforcement-Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-analytics" class="md-nav__link">
+    Process Analytics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-engineering" class="md-nav__link">
+    Data Engineering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#math-for-data-science" class="md-nav__link">
+    Math for Data Science
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-management" class="md-nav__link">
+    Project Management
+  </a>
+  
+    <nav class="md-nav" aria-label="Project Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-science-maturity-within-an-organization" class="md-nav__link">
+    Data Science Maturity within an Organization:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-your-data-science-team" class="md-nav__link">
+    Building Your Data Science Team:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referenes-and-further-readings" class="md-nav__link">
+    Referenes and Further Readings:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inspiring-data-products" class="md-nav__link">
+    Inspiring Data Products
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-datasets" class="md-nav__link">
+    Useful datasets
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <hr />
+<h3 id="about">About:</h3>
+<ul>
+<li>
+<p>This Project and notebooks are currently 'work in progress'. </p>
+</li>
+<li>
+<p>It's inspired by <a href="https://github.com/ossu/data-science">Open Source Society University</a>, peter norvig's <a href="https://github.com/norvig/pytudes#pytudes-index-of-jupyter-ipython-notebooks">pytudes project</a>,
+multiple Project's by folks like: <a href="https://github.com/donnemartin/data-science-ipython-notebooks">Donne_Martin</a>, <a href="https://dfrieds.com/">Dfriends</a>, <a href="https://chrisalbon.com/">Chris_albon</a> and many others. </p>
+</li>
+<li>
+<p>Roadmap: It provides an opportunity to document some of my own learnings and acts as a <a href="https://i.am.ai/roadmap/#fundamentals">data science road map</a> for self-taught learners out there to learn data science for free </p>
+</li>
+<li>
+<p><a href="https://www.nature.com/articles/d41586-018-07196-1">Computational notebooks</a>: Computational notebooks are essentially laboratory notebooks for scientific computing. We use Notebooks for Practice(as they are best suited for scientific computing). This is closely related to litrate programming paradigm(as conceived by Don Knuth) </p>
+</li>
+<li>
+<p>This is a long list. see <a href="https://towardsdatascience.com/how-to-become-a-data-scientist-2a02ed565336">this great article</a> on how to approach it depending on the <a href="https://workera.ai/resource_downloads/ai_career_pathways/">Career paths you decide to take</a></p>
+</li>
+</ul>
+<hr />
+<h2 id="topics">Topics:</h2>
+<ul>
+<li><a href="#introduction-to-Data-Science">Introduction to data Science</a></li>
+<li><a href="#Data-Science-Experiment-LifeCyle">Data Science Experiment LifeCyle</a></li>
+<li><a href="#Data-Wrangling-Tools">Data Wrangling Tools</a></li>
+<li><a href="#Exploratory-Data-Analysis">Exploratory Data Analysis</a></li>
+<li><a href="#Data-Cleaning">Data Cleaning</a></li>
+<li><a href="#Data-Analytics">Data Analytics (Descriptive, Inferential, Predictive, Causal)</a></li>
+<li><a href="#Importance-of-Story-telling-and-Case-Studies">Importance of Story telling and Case Studies</a></li>
+<li><a href="#Experimental-Design">Experimental Design</a></li>
+<li><a href="#Product-Related-Analysis">Product Related Analysis</a></li>
+<li><a href="#Natural-Language-Processing">Natural Language Processing</a></li>
+<li><a href="#Decision-Making-(Probability,-Reinforcement-Learning)">Decision Making (Probability, Reinforcement Learning)</a></li>
+<li><a href="#Process-Analytics">Process Analytics</a></li>
+<li><a href="#Data-Engineering-(Large-Scale-Data-Processing)">Data Engineering (Large Scale Data Processing)</a></li>
+<li><a href="#Math-for-Data-Science">Math for Data Science</a></li>
+<li><a href="#Project-Management-for-data-Science">Project Management for data Science</a></li>
+<li><a href="#Inspiring-Data-products">Inspiring data Products</a></li>
+<li><a href="#Useful-datasets">Useful datasets</a> </li>
+</ul>
+<hr />
+<h2 id="introduction-to-data-science">Introduction to Data Science</h2>
+<p>Data science organizations help a firm’s leaders make scientific or data-driven decisions to run their business more effectively.
+Team members collect data, analyze datasets, and suggest hypotheses and actions.</p>
+<p>Data Science has been around for a while. Even big data has been around for a while(Hubble has been sending us image data and Scientists at 
+CERN have been collecting Tera Bytes to uncover the secrets of the universe). Business recently realised that can extract value out of the 
+data they collect(e.g user data and event data) to make data-informed decisions which replaces the old model of going with the gut instinct, 
+loudest voice, and best argument methods. The insights gathered through this process can help improve existing processes and lower operations cost. 
+Learning 'how to be smart with data' is also bit of an art, that requires curosity, creativity and attention to detail and so on. 
+All of this requires experience and practice.  </p>
+<p>Instead of providing a sophisticated definition of Data Science, We run with this definition for now(by J. Kolter at CMU): </p>
+<blockquote>
+<p>Data science = statistics + data collection + data preprocessing + machine learning + visualization + business insights + scientific hypotheses + big data + (etc)</p>
+</blockquote>
+<p>Types of data scientists by Michael Hochster:</p>
+<blockquote>
+<p>Type A Data Scientist: The A is for Analysis. This type is primarily concerned with making sense of data or working with it in a fairly static way. The Type A Data Scientist is very similar to a statistician (and may be one) but knows all the practical details of working with data that aren’t taught in the statistics curriculum: data cleaning, methods for dealing with very large data sets, visualization, deep knowledge of a particular domain, writing well about data, and so on.
+Type B Data Scientist: The B is for Building. Type B Data Scientists share some statistical background with Type A, but they are also very strong coders and may be trained software engineers. The Type B Data Scientist is mainly interested in using data “in production.” They build models which interact with users, often serving recommendations (products, people you may know, ads, movies, search results).</p>
+</blockquote>
+<h4 id="inductive-vs-deductive-reasoning">Inductive vs Deductive Reasoning:</h4>
+<p>"Data Science supports and encourages shifting between deductive (hypothesis-based) and inductive (pattern-based) reasoning. This is a fundamental change from traditional analytic approaches. Inductive reasoning and exploratory data analysis provide a means to form or refine hypotheses and discover new analytic paths. In fact, to do the discovery of signifcant insights that are the hallmark of Data Science, you must have the tradecraft and the interplay between inductive and deductive reasoning. By actively combining the ability to reason deductively and inductively, Data Science creates an environment where models of reality no longer need to be static and empirically based. Instead, they are constantly tested, updated and improved until better models are found. These concepts are summarized in the figure, The Types of Reason and Their Role in Data Science Tradecraft." - Field Guide to data Science</p>
+<p>read more: 
+- <a href="https://asjadkhan.ghost.io/generating-business-value-with-ai-an-executive-guide/">Competing in a Data-Driven World: An executive Guide</a>
+- <a href="https://asjadkhan.ghost.io/untitled/">Rise of Data Products</a>
+- <a href="https://learning.oreilly.com/library/view/beautiful-data/9780596801656/">Beautiful data</a></p>
+<hr />
+<h2 id="data-science-experiment-lifecyle">Data Science Experiment LifeCyle:</h2>
+<h4 id="introduction">Introduction:</h4>
+<ul>
+<li>Every data Science Project starts with a question that is to be answered with data. That means forming the question is an important first step in the process. </li>
+<li>The second step is finding or generating the data you are going to use to answer that question. </li>
+<li>With that question solidified and data in hand, the data are then analysed, first by exploring the data and then often by modeling the data, which means using some statisitcal or machine learning techniques to analyse the data and answer your question</li>
+<li>This is an iterative Process </li>
+<li>After drawing conclusions from this analysis, the project has to be communicated to others.</li>
+</ul>
+<h4 id="details">Details:</h4>
+<p>Data Science analytics are a lot like broccoli – fractal in nature in
+both time and construction. Early versions of an analytic follow the
+same development process as later versions. At any given iteration, the
+analytic itself is a collection of smaller analytics that often decompose
+into yet smaller analytics. </p>
+<p>Decomposing the problem into manageable pieces is the frist step
+in the analytic selection process. Achieving a desired analytic action
+often requires combining multiple analytic techniques into a holistic,
+end-to-end solution. Engineering the complete solution requires that
+the problem be decomposed into progressively smaller sub-problems.
+Fractal Analytic Model embodies this approach. At any given
+stage, the analytic itself is a collection of smaller computations that
+decompose into yet smaller computations. When the problem is
+decomposed far enough, only a single analytic technique is needed
+to achieve the analytic goal. Problem decomposition creates multiple
+sub-problems, each with their own goals, data, computations, and
+actions.</p>
+<p><img alt="alt text" src="images/data_science_process.png" title="Logo Title Text 1" /></p>
+<h4 id="readmorereferences">readmore/references:</h4>
+<ul>
+<li>Data Science Field guide - Booz Allen Hamilton</li>
+<li><a href="https://dfrieds.com/articles/recipe-great-data-science-work.html">A Recipe for Doing Great Data Science Work</a></li>
+</ul>
+<hr />
+<h2 id="importance-of-story-telling-and-case-studies">Importance of Story telling and Case Studies</h2>
+<p>Context, inferences and models are created by humans and carry with them biases and assumptions. Blindly trusting your analyses is a dangerous thing
+that can lead to erroneous conclusions. We should try to clearly communite our findings by describing: </p>
+<ul>
+<li>What problem are we trying to solve and why its intresting? </li>
+<li>Document your assumptions and make sure they have not introduced bias in your work.</li>
+<li>Does the approach taken and answers make sense? (we should be Be skeptical of surprise findings and make sure the analysis address the
+original intent)</li>
+</ul>
+<p>The goal of your analysis is to tell an actionable story. 
+Its good to see some data science projects and learn from them. 
+In each project, the author had a question they wanted to answer and used data to answer that question. 
+They explored, visualized, and analysed the data. Then, they wrote blog posts to communicate their findings. 
+Take a look to learn more about the topics listed and to see how others work through the data science project process and communicate their results!</p>
+<ul>
+<li>https://pennmusa.github.io/MUSA_801.io/project_5/index.html</li>
+<li>https://sharlagelfand.netlify.app/posts/tidying-toronto-open-data/</li>
+<li>https://masalmon.eu/2017/11/16/wheretoliveus/</li>
+<li>http://varianceexplained.org/r/trump-tweets/</li>
+</ul>
+<hr />
+<h3 id="data-acquizition">Data Acquizition</h3>
+<p>Note: automate as much as possible so you can easily get fresh data.</p>
+<ol>
+<li>List the data you need and how much you need.</li>
+<li>Find and document where you can get that data (identify what kind of data the organization has)</li>
+<li>Check how much space it take and engineering efforts required (initial assessment). </li>
+<li>Understand Operational Constraints (e.g. what data is actually available at inference time)</li>
+<li>Legal/Ethics/Privacy</li>
+<li>Get access authorizations and check legal obligations </li>
+<li>proactively identify ethical risks, including how your work could be mis-used by harassers, trolls, authoritarian governments, or for propaganda/disinformation campaigns (and plan how to reduce these risks)</li>
+<li>identify [potential biases and potential negative feedback loops]</li>
+<li>Ensure sensitive Information is deleted or protected (e.g anonymized)</li>
+</ol>
+<hr />
+<h3 id="data-wrangling-tools-and-libraries">Data Wrangling Tools and Libraries</h3>
+<p>Data wrangling is about taking a messy or unrefined source of data and turning it into something useful. 
+You begin by seeking out raw data sources and determining their value: How good are they as data sets? 
+How relevant are they to your goal? Is there a better source? Once you’ve parsed and cleaned the data so that the data sets are usable, 
+you can utilize tools and methods (like Python scripts) to help you analyze them and present your findings in a report. 
+This allows you to take data no one would bother looking at and make it both clear and actionable.</p>
+<h4 id="learning-the-tools">Learning the tools</h4>
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Command-line</td>
+<td>Learn various unix command line utlities and how they can be used to clean and compute basic statistics</td>
+<td><a href="https://asjadkhan.ghost.io/ghost/#/site">blog_post</a></td>
+</tr>
+<tr>
+<td>Web Data Collection</td>
+<td>Learn to collect data available on web (APIs or web scrapping)</td>
+<td><a href="https://github.com/asjad99/datascience-GYM/tree/master/data_engineering">Notebook</a></td>
+</tr>
+<tr>
+<td>numpy_Basics</td>
+<td>Learn the basics of the library that underpins scientific computing</td>
+<td><a href="/work/datascience-GYM/Data_Munging/[Numpy]basics.ipynb">Notebook</a></td>
+</tr>
+<tr>
+<td>numpy_linear_algebra</td>
+<td></td>
+<td>Notebook</td>
+</tr>
+<tr>
+<td>Pandas Basics</td>
+<td>Learn the basics of pandas</td>
+<td><a href="https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/Pandas.ipynb">Notebook</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="guides-on-python-programming">Guides on Python Programming</h2>
+<ul>
+<li>How to think like a CS in python</li>
+<li>SCIP in python</li>
+<li>Hitch Hiker's Guide to python</li>
+<li>python env https://jacobian.org/2018/feb/21/python-environment-2018/</li>
+<li>Cheatsheet</li>
+<li>Mit Hacker tools</li>
+<li><a href="https://github.com/asjad99/modern_algorithms_toolkit">Data Algorithms</a>   </li>
+</ul>
+<hr />
+<hr />
+<h2 id="data-analytics">Data Analytics:</h2>
+<p>we cover the following topics: </p>
+<ol>
+<li>
+<p>Descriptive Analysis / Diagnostic Aaalytics / Data Mining :
+    The goal of descriptive analysis is to describe or summarize a set of data. 
+    The goal of diagnostic and data mining is to look for hidden insights, answer questions and so on.</p>
+</li>
+<li>
+<p>Inferential Analysis:
+    The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. </p>
+</li>
+<li>
+<p>Predictive Analytics:
+    The goal of predictive analysis is to use current data to make predictions about future data. </p>
+</li>
+<li>
+<p>Causal Analysis: 
+    The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the 
+    relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. </p>
+</li>
+</ol>
+<hr />
+<h3 id="descriptive-analysis-diagnostic-aaalytics-data-mining">Descriptive Analysis / Diagnostic Aaalytics / Data Mining</h3>
+<p>Descriptive Analytics is aimed at answering real busiessn questions. Describing the dataset at hand, Discovering insigths and Acting on those insights. 
+It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. </p>
+<p>The goal of descriptive analysis is to describe or summarize a set of data. Whenever you get a new dataset to examine, this is usually the first kind of analysis you will perform. Descriptive analysis will generate simple summaries about the samples and their measurements. You may be familiar with common descriptive statistics: measures of central tendency (eg: mean, median, mode) or measures of variability (eg: range, standard deviations or variance).
+This type of analysis is aimed at summarizing your sample – not for generalizing the results of the analysis to a larger population or trying to make conclusions. Description of data is separated from making interpretations; generalizations and interpretations require additional statistical steps.
+Some examples of purely descriptive analysis can be seen in censuses. Here, the government collects a series of measurements on all of the country’s citizens, which can then be summarized. Here, you are being shown the age distribution in the US, stratified by sex. The goal of this is just to describe the distribution. There is no inferences about what this means or predictions on how the data might trend in the future. It is just to show you a summary of the data collected.</p>
+<ul>
+<li>Framing a question</li>
+<li>Statistics knowledge (covered earlier in EDA)</li>
+</ul>
+<h3 id="projects">Projects:</h3>
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data Visualization</td>
+<td>Analyse Stackoverflow data using visaluzation techniques</td>
+<td><a href="https://deepnote.com/project/Data-Science-Journey-jCWd_2HtRsuqlP3afT_cjg/%2Fdatascience-GYM%2FData_Munging%2Fstackoverflow.ipynb">Notebook</a></td>
+</tr>
+<tr>
+<td>Taxi data Analysis</td>
+<td>Mobility behaviour Analysis  of rome taxi driver</td>
+<td><a href="https://github.com/asjad99/mobility-intelligence">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<p>Read More: </p>
+<ul>
+<li>Guide for <a href="https://github.com/asjad99/datascience-GYM/blob/master/Data_Munging/2.%20data_types_formats.ipynb">Common Data Types and Formats</a></li>
+<li><a href="http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf">Statistics for Social Sciences</a></li>
+<li><a href="https://www.edwardtufte.com/tufte/">Edward Tufte's Books</a></li>
+<li><a href="https://www.economist.com/graphic-detail/">Economist</a></li>
+<li><a href="https://www.nytimes.com/column/whats-going-on-in-this-graph">What's going on in this graph</a></li>
+<li><a href="https://www.youtube.com/watch?v=GW4s58u8PZo">A network of science: 150 years of Nature papers</a></li>
+</ul>
+<hr />
+<h3 id="inferential-analysis-with-statistics">Inferential analysis (with Statistics)</h3>
+<p>The goal of inferential analysis is to use a relatively small sample of data to infer or say something about population at large. </p>
+<table>
+<thead>
+<tr>
+<th>Notebook</th>
+<th>Description</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inferential Analysis</td>
+<td></td>
+<td>Notebook</td>
+</tr>
+<tr>
+<td>Useful resoruces:</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>https://www.coursera.org/specializations/statistics-with-python<br />
+Experimental Design and Analysis: http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf</p>
+<p>https://online-learning.harvard.edu/course/data-science-inference-and-modeling?delta=0 
+https://www.amazon.com/Statistics-Course-Pack-Set-Op/dp/1138838349/ref=sr_1_1?keywords=Statistics+Plain&amp;qid=1572967665&amp;sr=8-1 
+https://greenteapress.com/thinkstats/thinkstats.pdf</p>
+<hr />
+<h3 id="causal-analysis">Causal analysis</h3>
+<p>The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. looking at the cause and effect of a relationship. 
+https://ff13.fastforwardlabs.com/ </p>
+<hr />
+<h2 id="experimental-design">Experimental Design</h2>
+<h3 id="randomized-control">Randomized Control</h3>
+<h3 id="hypothesis-testing">Hypothesis Testing</h3>
+<p><img alt="alt text" src="images/experiment_cycle.png" title="Logo Title Text 1" /></p>
+<h3 id="ab-testing">A/B Testing</h3>
+<blockquote>
+<p>As a Data Scientist, you get to establish causality (something really hard to do with observational data) by running actual randomized, controlled experiments. At Twitter, “It’s rare for a day to go by without running at least one experiment” — Alex Roetter, VP of Engineering. A/B testing is ingrained in our DNA and our product development cycle.</p>
+</blockquote>
+<p>Here is the typical process of running a A/B test: Gather Samples -&gt; Assign Buckets -&gt; Apply Treatments -&gt; Measure Outcomes -&gt; Make Comparisons. </p>
+<p>Hypothesis Testing: Statistical test, p-values, statistical significance, power, effect size, multiple testing</p>
+<p>Useful Guide: 
+- <a href="http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf">Experimental Design and Analysis by Howard J. Seltman</a>
+- http://www.datasciencecourse.org/slides/hypothesis_testing.pdf 
+- So, you need a statistically significant sample?
+- Experiments at Airbnb
+- When should A/B testing not to be trusted when making decisions</p>
+<hr />
+<h2 id="product-related-analysis">Product Related Analysis</h2>
+<p>Examples of Analysis at twitter: </p>
+<ol>
+<li>Push Notification Analysis — How many users are eligible for push notifications? across user segment? across clients? What are the tap rates of different push notification types?</li>
+<li>SMS Delivery Rates — How do we calculate Twitter’s SMS delivery rates across different carriers? Are our delivery rates in emerging countries poorer? How can we make them better?</li>
+<li>Multiple Accounts — Why do certain countries have a higher ratio of multiple accounts? What drive people to create multiple account?</li>
+</ol>
+<blockquote>
+<p>Generating insights through product analysis is an iterative process. It requires challenging the questions being asked, understanding the business context, and figuring out the right dataset to answer the questions. Over time, you will become an expert in where the data lives and what they mean. You will get better at estimating how much time it will take to carry out an analysis. More importantly, you will slowly move from a reactive state to proactive state and start suggesting interesting analyses that product leaders might not think of, because they don’t know the data exists or that disparately different data sources can be complementary and combined in a particular way.</p>
+</blockquote>
+<ul>
+<li>Gather Samples — How many samples do we need? How many users should go into each bucket? Can we ensure that the experiment will have sufficient power?</li>
+<li>Assign Buckets — Who are eligible to be in the experiments? and where in the code should we start assigning buckets and showing treatments? Would the placement introduce data dilution (i.e. some users are assigned to treatment but never see it)?</li>
+<li>Apply Treatment — Are there any other teams in the organization running experiments that are competing for the same real estate in the app? How do we deal with experiment collision and ensure our data is not contaminated?</li>
+<li>Measure Outcome — What is the hypothesis of the experiment? What are the success and failure metrics of this experiment? Can we track them? and How? What additional logging do we need to add?</li>
+<li>Make Comparisons — Suppose we see that the # of users who logged-in increase dramatically, is it due to noise? How do we know if the results are statistically significant? Even if it is, is it practically significant?</li>
+</ul>
+<p>Implementing models: </p>
+<p>Set up the infrastructure, aggregate and prepare the data, and
+incorporate domain expert knowledge. Try different analytic
+techniques and models on subsets of the data. Evaluate the models,
+refine, evaluate again, and select a model. Do something with your
+models and results – deploy the models to inform, inspire action, and
+act. Evaluate the business results to improve the overall product.</p>
+<hr />
+<h2 id="predictive-analytics-with-machine-learning">Predictive Analytics with Machine Learning</h2>
+<p>https://github.com/asjad99/Machine-Learning-GYM/blob/main/README.md</p>
+<h2 id="reinforcement-learning">Reinforcement Learning:</h2>
+<h2 id="httpsgithubcomasjad99deep-reinforcement-learning">https://github.com/asjad99/Deep-Reinforcement-Learning</h2>
+<h2 id="process-analytics">Process Analytics</h2>
+<p>https://github.com/asjad99/process-analytics </p>
+<hr />
+<h2 id="data-engineering">Data Engineering</h2>
+<p>https://github.com/asjad99/data-engineering-ml-ops</p>
+<hr />
+<h2 id="math-for-data-science">Math for Data Science</h2>
+<p>https://www.overleaf.com/project/60321e0c4ca63c16ec680cde</p>
+<p>Data science rests on a foundation of mathematics, particularly statistics and linear algebra. It is important to
+understand this material on an intuitive level: why these concepts were
+developed, how they are useful, and when they work best. e.g develop statistical reasoning is a core goal. </p>
+<table>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Description</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sets</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Graph Theory</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Linear Algebra</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Probability</td>
+<td>http://www.datasciencecourse.org/notes/probability/</td>
+<td></td>
+</tr>
+<tr>
+<td>Statistics</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="project-management">Project Management</h2>
+<p>Data Science is more than feature engineering, training models. XOR build applications and deploy models. Its involves:</p>
+<blockquote>
+<p>meeting client, understanding business problem, write code to connect to data sources,
+get the data, clean it, set up training environments, train models, set up serving environments, 
+deploy models, write the application (web, mobile).</p>
+</blockquote>
+<p>Data Science supports and encourages shifting between deductive (hypothesis-based) and inductive (pattern-based) reasoning. Tis is a fundamental change from traditional analytic approaches. Inductive reasoning and exploratory data analysis provide a means to form or refine hypotheses and discover new analytic paths. In fact, to do the discovery of signifcant insights that are the hallmark of Data Science, you must have the tradecraft and the interplay between inductive and deductive reasoning. By actively combining the ability to reason deductively and inductively, Data Science creates an environment where models of reality no longer need to be static and empirically based. Instead, they are constantly tested, updated and improved until better models are found. These concepts are summarized in the figure, The Types of Reason and Their Role in Data Science Tradecraft.</p>
+<p><img alt="alt text" src="images/img_1.png" title="Logo Title Text 1" /></p>
+<p>The diferences between Data Science and traditional analytic approaches do not end at seamless shifting between deductive and inductive reasoning. Data Science offers a distinctly different perspective than capabilities such as Business Intelligence. Data Science should not replace Business Intelligence functions within an organization, however. Te two capabilities are additive and complementary, each offering a necessary view of business operations and the operating environment. Te fgure, Business Intelligence and Data Science – A Comparison, highlights the diferences between the two capabilities. Key contrasts include:
+<img alt="alt text" src="images/img_2.png" title="Logo Title Text 1" /></p>
+<h3 id="_1"></h3>
+<p>Data Science Projects Pipeline:
+    Data Collection → Data Processing → Exploration/visualization → analysis/machine learning → insight/policy decisions </p>
+<p><img alt="alt text" src="images/img_3.png" title="Logo Title Text 1" /></p>
+<h3 id="data-science-maturity-within-an-organization">Data Science Maturity within an Organization:</h3>
+<p>We use the Data Science Maturity Model as a common framework for describing the maturity progression and components that make up a Data Science capability. Tis framework can be applied to an organization’s Data Science capability or even to the maturity of a specifc solution, namely a data product. At each stage of maturity, powerful insight can be gained.</p>
+<p><img alt="alt text" src="images/img_4.png" title="Logo Title Text 1" />
+<img alt="alt text" src="images/img_5.png" title="Logo Title Text 1" /></p>
+<h3 id="building-your-data-science-team">Building Your Data Science Team:</h3>
+<p>A critical component to any Data Science capability is having the right team. 
+Data Science depends on a diverse set of skills as shown in Te Data Science Venn Diagram. 
+Computers provide the environment in which data-driven hypotheses are tested, and as such, computer science is necessary 
+for data manipulation and processing. Mathematics provides the theoretical structure in which Data Science problems are examined. 
+A rich background in statistics, geometry, linear algebra, and calculus are all important to understand the basis for many algorithms and tools. 
+Finally, domain expertise contributes to an understanding of what problems actually need to be solved, 
+what kind of data exists in the domain, and how the problem space may be instrumented and measured.</p>
+<h3 id="referenes-and-further-readings">Referenes and Further Readings:</h3>
+<ul>
+<li>Field Guide to data science https://wolfpaulus.com/wp-content/uploads/2017/05/field-guide-to-data-science.pdf</li>
+<li>Executive Data Science Specialization</li>
+<li>AI Product manager nanodegree </li>
+<li>
+<p><a href="https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html">Creating a data driven organization</a></p>
+</li>
+<li>
+<p><a href="https://www.oreilly.com/library/view/managing-data-science/9781838826321/">Managing Data Science Teams and Projects</a></p>
+</li>
+<li>Interviews: http://treycausey.com/data_science_interviews.html</li>
+</ul>
+<hr />
+<h1 id="inspiring-data-products">Inspiring Data Products</h1>
+<p>https://github.com/asjad99/data_products </p>
+<hr />
+<h1 id="useful-datasets">Useful datasets</h1>
+<p>https://www.kaggle.com/asjad99 
+https://github.com/beamandrew/medical-data </p>
+<hr />
+<p>Quotes: </p>
+<blockquote>
+<p>In the past few decades, there has been an explosion in data that does not have any explicit semantics attached to it. This data is generated by both humans and machines. Most of this data is not easily machine-processable; for example, images, text, video (as opposed to carefully curated data in a knowledge- or data-base). This has given rise to a huge industry that applies AI techniques to get usable information from such enormous data. This field of applying techniques derived from AI to large volumes of data goes by names such as “data mining,” “big data,” “analytics,” etc. This field is too vast to even moderately cover in the present article, but we note that there is no full agreement on what constitutes such a “big-data” problem. One definition, from Madden (2012), is that big data differs from traditional machine-processable data in that it is too big (for most of the existing state-of-the-art hardware), too quick (generated at a fast rate, e.g. online email transactions), or too hard. It is in the too-hard part that AI techniques work quite well. While this universe is quite varied, we use the Watson’s system later in this article as an AI-relevant exemplar. As we will see later, while most of this new explosion is powered by learning, it isn’t entirely limited to just learning. This bloom in learning algorithms has been supported by both a resurgence in neurocomputational techniques and probabilistic techniques.
+ https://plato.stanford.edu/entries/artificial-intelligence/#</p>
+<p>“Every statistician knows that a large, relevant sample size is their best friend. What are the three largest, most relevant sample sizes for identifying universal principles? Bucket number one is inorganic systems, which are 13.7 billion years in size. It’s all the laws of math and physics, the entire physical universe. Bucket number two is organic systems, 3.5 billion years of biology on Earth. And bucket number three is human history, you can pick your own number, I picked 20,000 years of recorded human behavior. Those are the three largest sample sizes we can access and the most relevant.”</p>
+<p>Perched atop the Cerro Pachón ridge in the Chilean Andes is a building site that will eventually become the Large Synoptic Survey Telescope (LSST). When it comes online in 2022, the telescope will generate terabytes of data each night as it surveys the southern skies automatically. And to crunch those data, astronomers will use a familiar and increasingly popular tool: the Jupyter notebook.</p>
+<p>"In Short, the new breed of scientist must be a broadly-trained expert in statistics, in computing, in algorithmic building, in software design."</p>
+</blockquote>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "assets/javascripts/workers/search.4fa0e4ee.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.1d3bfcf1.min.js"></script>
+      
+    
+  </body>
+</html>
