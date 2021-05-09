@@ -198,7 +198,7 @@ we cover the following topics:
 
 ----------------------------------------------------------------------------------------------------------------
 
-### Descriptive Analysis / Diagnostic Aaalytics / Data Mining 
+### Descriptive Analysis / Diagnostic Analytics / Data Mining 
 
 Descriptive Analytics is aimed at answering real business questions. Describing the dataset at hand, Discovering insigths and Acting on those insights.  It requires finding meaningful patterns, trends and exceptions that are easy to see and interpret for decision makers. 
 
@@ -208,7 +208,12 @@ Some examples of purely descriptive analysis can be seen in censuses. Here, the 
 
 
 - Framing a question
-- Statistics knowledge (covered earlier in EDA)
+
+- Statistics knowledge 
+
+- Exploratory data Analysis
+
+  
 
 
 ### Case Studies: 
@@ -243,12 +248,11 @@ The goal of inferential analysis is to use a relatively small sample of data to 
 
 ###### Useful Resources: 
 
-- [Statistics with Python](https://www.coursera.org/specializations/statistics-with-python)
+- [Course - Statistics with Python](https://www.coursera.org/specializations/statistics-with-python)
+- [Course - Data Science: Inference and Modeling](https://online-learning.harvard.edu/course/data-science-inference-and-modeling?delta=0) 
 
-- [Experimental Design and Analysis](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
-- [Data Science: Inference and Modeling](https://online-learning.harvard.edu/course/data-science-inference-and-modeling?delta=0) 
-  https://www.amazon.com/Statistics-Course-Pack-Set-Op/dp/1138838349/ref=sr_1_1?keywords=Statistics+Plain&qid=1572967665&sr=8-1 
-  https://greenteapress.com/thinkstats/thinkstats.pdf
+- [Book - Experimental Design and Analysis](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
+- [Book - Probability and Statistics for Programmers](https://greenteapress.com/thinkstats/thinkstats.pdf)
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -256,27 +260,27 @@ The goal of inferential analysis is to use a relatively small sample of data to 
 
 The caveat to a lot of the analysis we have looked at above is that we can only see correlations and can’t get at the cause of the relationships we observe. Causal analysis fills that gap. the goal of the causal analysis is to see what happens to one variable when we manipulate anohter variable. Looking at the cause and effect of a relationship. 
 
-| Title | Description                                             | Code                                                         |
-| ----- | ------------------------------------------------------- | ------------------------------------------------------------ |
-|       | Counterfactual Learning in Batch Reinforcement Learning | [Blog Post](https://www.asjadk.io/counterfactual-policy-evaluation/) |
-|       |                                                         |                                                              |
+| Title | Description                                               | Code                                                         |
+| ----- | --------------------------------------------------------- | ------------------------------------------------------------ |
+|       | Counterfactual Evaluation in Batch Reinforcement Learning | [Blog Post](https://www.asjadk.io/counterfactual-policy-evaluation/) |
+|       |                                                           |                                                              |
+|       |                                                           |                                                              |
 
-Applications: 
+#### Useful Resources: 
 
-​	- []
+- [The Book of Why: The New Science of Cause and Effect
 
-Useful Resources: 
+- [Causality for Machine Learning](https://ff13.fastforwardlabs.com/ )
 
-- [The Book of Why: The New Science of Cause and Effect]()
-- https://ff13.fastforwardlabs.com/ 
+  
 
 ----------------------------------------------------------------------------------------------------------------
 
-## Experimental Design
+## Experimental Design And Analysis
 
-### Randomized Control 
+### 
 
-### Hypothesis Testing 
+### 
 
 ![alt text](images/experiment_cycle.png "Logo Title Text 1")
 
@@ -286,10 +290,20 @@ Useful Resources:
 
 Here is the typical process of running a A/B test: Gather Samples -> Assign Buckets -> Apply Treatments -> Measure Outcomes -> Make Comparisons. 
 
-Hypothesis Testing: Statistical test, p-values, statistical significance, power, effect size, multiple testing
+#### Hypothesis Testing: 
 
+​	Statistical test, p-values, statistical significance, power, effect size, multiple testing
 
-Useful Guide: 
+#### Randomized Control 
+
+​	The history of clinical trials dates back to approximately 600 B.C. when Daniel of Judah [1] conducted what is probably the earliest recorded clinical trial. He compared the health effects of the vegetarian diet with those of a royal Babylonian diet over a 10-day period. The trial had obvious deficiencies by contemporary medical standards (allocation bias, ascertainment bias, and confounding by divine intervention), but the report has remained influential for more than two millennia
+
+​		Today, Randomized controlled trials are used to examine the effect of interventions on particular outcomes such as death or the recurrence of disease. Some consider randomized controlled trials to be the best of all research designs [14], or “the most powerful tool in modern clinical research” [15], mainly because the act of randomizing patients to receive or not receive the intervention ensures that, on average, all other possible causes are equal between the two groups. Thus, any significant differences between groups in the outcome event can be attributed to the intervention and not to some other unidentified factor. 
+
+Many randomized controlled trials involve large sample sizes because many treatments have relatively small effects. The size of the expected effect of the intervention is the main determinant of the sample size necessary to conduct a successful randomized controlled trial. Obtaining statistically significant differences between two samples is easy if large differences are expected. However, the smaller the expected effect of the intervention, the larger the sample size needed to be able to conclude, with enough power, that the differences are unlikely to be due to chance. 
+
+#### Useful Guides/Books: 
+
 - [Experimental Design and Analysis by Howard J. Seltman](http://www.stat.cmu.edu/~hseltman/309/Book/Book.pdf)
 - http://www.datasciencecourse.org/slides/hypothesis_testing.pdf 
 - So, you need a statistically significant sample?
@@ -300,13 +314,17 @@ Useful Guide:
 
 ## Product Related Analysis
 
+Generating insights through product analysis is an iterative process. It requires challenging the questions being asked, understanding the business context, and figuring out the right dataset to answer the questions. Over time, you will become an expert in where the data lives and what they mean. You will get better at estimating how much time it will take to carry out an analysis. More importantly, you will slowly move from a reactive state to proactive state and start suggesting interesting analyses that product leaders might not think of, because they don’t know the data exists or that disparately different data sources can be complementary and combined in a particular way.
+
+
+
+#### Case Study: 
+
 Examples of Analysis at twitter: 
 
 1. Push Notification Analysis — How many users are eligible for push notifications? across user segment? across clients? What are the tap rates of different push notification types?
 2. SMS Delivery Rates — How do we calculate Twitter’s SMS delivery rates across different carriers? Are our delivery rates in emerging countries poorer? How can we make them better?
 3. Multiple Accounts — Why do certain countries have a higher ratio of multiple accounts? What drive people to create multiple account?
-
-> Generating insights through product analysis is an iterative process. It requires challenging the questions being asked, understanding the business context, and figuring out the right dataset to answer the questions. Over time, you will become an expert in where the data lives and what they mean. You will get better at estimating how much time it will take to carry out an analysis. More importantly, you will slowly move from a reactive state to proactive state and start suggesting interesting analyses that product leaders might not think of, because they don’t know the data exists or that disparately different data sources can be complementary and combined in a particular way.
 
 - Gather Samples — How many samples do we need? How many users should go into each bucket? Can we ensure that the experiment will have sufficient power?
 - Assign Buckets — Who are eligible to be in the experiments? and where in the code should we start assigning buckets and showing treatments? Would the placement introduce data dilution (i.e. some users are assigned to treatment but never see it)?
@@ -315,27 +333,25 @@ Examples of Analysis at twitter:
 - Make Comparisons — Suppose we see that the # of users who logged-in increase dramatically, is it due to noise? How do we know if the results are statistically significant? Even if it is, is it practically significant?
 
 
-Implementing models: 
 
-  Set up the infrastructure, aggregate and prepare the data, and
-incorporate domain expert knowledge. Try different analytic
-techniques and models on subsets of the data. Evaluate the models,
-refine, evaluate again, and select a model. Do something with your
-models and results – deploy the models to inform, inspire action, and
-act. Evaluate the business results to improve the overall product.
+## Predictive Analytics with Machine Learning 
+
+- Machine Learning is the modern probabilistic approach to artificial intelligence. It studies algorithms that learn to predict from (usually independent and identically distributed) data.
+- It Utilizes past observation data to predict future observations. e.g Can we predict which products that certain customer groups are more likely to purchase?
+- It also allows us to implement cool new features like the smart reply in gmail.
+- In terms of impact most of AI technologies currently being deployed are mostly falling under the category of machine learning.
+- Machine Learning Engineer: A machine learning engineer is someone who sits at the crossroads of data science and data engineering, and has proficiency in both data engineering and data science.
+- Machine learning projects involve Set up the infrastructure, aggregate and prepare the data, and incorporate domain expert knowledge. Try different analytic techniques and models on subsets of the data. Evaluate the models, refine, evaluate again, and select a model. Do something with your models and results – deploy the models to inform, inspire action, and act. Evaluate the business results to improve the overall product. 
+
+ To keep this primer short  i have moved the machine learning guide here:  [Machine Learning GYM](https://github.com/asjad99/Machine-Learning-GYM/blob/main/README.md)
+
+## Reinforcement Learning: 
 
 
-##### Predictive Analytics with Machine Learning 
-
- See [Machine Learning GYM](https://github.com/asjad99/Machine-Learning-GYM/blob/main/README.md)
-
-
-#####  Reinforcement Learning: 
 
 See [Reinforcement Learning GYM](https://github.com/asjad99/Deep-Reinforcement-Learning)
 
-
-#####  Process Analytics
+## Process Analytics
 
 See [Reinforcement Learning GYM](https://github.com/asjad99/process-analytics) 
 
@@ -343,24 +359,23 @@ See [Reinforcement Learning GYM](https://github.com/asjad99/process-analytics)
 ## Data Engineering 
 See [Data Engineering](https://github.com/asjad99/data-engineering-ml-ops)
 
-------------------------------------------------------------------------------------------------------------------------
-
 ## Math for Data Science
 
-https://www.overleaf.com/project/60321e0c4ca63c16ec680cde
-
 Data science rests on a foundation of mathematics, particularly statistics and linear algebra. It is important to
-understand this material on an intuitive level: why these concepts were
-developed, how they are useful, and when they work best. e.g develop statistical reasoning is a core goal. 
+understand this material on an intuitive level: why these concepts were developed, how they are useful, and when they work best. e.g develop statistical reasoning is a core goal. 
 
+TODO: move notes from here https://www.overleaf.com/project/60321e0c4ca63c16ec680cde
 
-| Algorithm           | Description | Code |
-|---------------------|-----------|-------------|
-| Sets   |           |             |
-| Graph Theory             |           |             |
-| Linear Algebra |           |             |
-| Probability                |http://www.datasciencecourse.org/notes/probability/            |             |
-| Statistics                |           |             |
+http://www.datasciencecourse.org/notes/probability/
+
+### Inspiring Data Products
+
+https://github.com/asjad99/data_products 
+
+## Useful datasets 
+
+https://www.kaggle.com/asjad99 
+https://github.com/beamandrew/medical-data 
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -400,40 +415,34 @@ We use the Data Science Maturity Model as a common framework for describing the 
 
 ### Building Your Data Science Team: 
 
-A critical component to any Data Science capability is having the right team. 
-Data Science depends on a diverse set of skills as shown in Te Data Science Venn Diagram. 
-Computers provide the environment in which data-driven hypotheses are tested, and as such, computer science is necessary 
-for data manipulation and processing. Mathematics provides the theoretical structure in which Data Science problems are examined. 
-A rich background in statistics, geometry, linear algebra, and calculus are all important to understand the basis for many algorithms and tools. 
-Finally, domain expertise contributes to an understanding of what problems actually need to be solved, 
-what kind of data exists in the domain, and how the problem space may be instrumented and measured.
+​	A critical component to any Data Science capability is having the right team. 
+
+- Data Science depends on a diverse set of skills as shown in the Data Science Venn Diagram. 
+- Computers provide the environment in which data-driven hypotheses are tested, and as such, computer science is necessary  for data manipulation and processing. 
+- Mathematics provides the theoretical structure in which Data Science problems are examined. 
+- A rich background in statistics, geometry, linear algebra, and calculus are all important to understand the basis for many algorithms and tools. 
+- Finally, domain expertise contributes to an understanding of what problems actually need to be solved, 
+  what kind of data exists in the domain, and how the problem space may be instrumented and measured.
 
 ### Referenes and Further Readings: 
 
 - Field Guide to data science https://wolfpaulus.com/wp-content/uploads/2017/05/field-guide-to-data-science.pdf
+
 - Executive Data Science Specialization
+
 - AI Product manager nanodegree 
+
 - [Creating a data driven organization](https://www.oreilly.com/library/view/creating-a-data-driven/9781492049227/ch04.html)
 
 - [Managing Data Science Teams and Projects](https://www.oreilly.com/library/view/managing-data-science/9781838826321/)
+
 - Interviews: http://treycausey.com/data_science_interviews.html
 
-
+  
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-# Inspiring Data Products
-
-https://github.com/asjad99/data_products 
-
-
-----------------------------------------------------------------------------------------------------------------------------------------
-# Useful datasets 
-
-https://www.kaggle.com/asjad99 
-https://github.com/beamandrew/medical-data 
-
-
+## Quotes
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
