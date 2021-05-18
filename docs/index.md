@@ -370,12 +370,11 @@ http://www.datasciencecourse.org/notes/probability/
 
 ### Inspiring Data Products
 
-https://github.com/asjad99/data_products 
 
-## Useful datasets 
 
-https://www.kaggle.com/asjad99 
-https://github.com/beamandrew/medical-data 
+[List of Project ideas/Data Products](https://github.com/asjad99/data_products)
+
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
